@@ -3,8 +3,8 @@
 #include <string>
 #include <ctime>
 
-#include "../profile_collection/profile_collection.h"
-#include "../profile/profile.h"
+#include "profile.h"
+#include "profile_collection.h"
 
 
 int main() {

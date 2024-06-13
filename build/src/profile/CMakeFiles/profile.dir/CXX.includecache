@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/profile/profile.h
+iostream
+-
+string
+-
+
+/home/fer/Documents/Common_Solutions/src/profile/profile.cc
+iostream
+-
+profile.h
+/home/fer/Documents/Common_Solutions/src/profile/profile.h
+

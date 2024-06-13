@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/profile/profile.h
+iostream
+-
+string
+-
+
+../include/profile_collection/profile_collection.h
+iostream
+-
+unordered_map
+-
+string
+-
+utility
+-
+../profile/profile.h
+../include/profile/profile.h
+
+/home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc
+iostream
+-
+tuple
+-
+chrono
+-
+profile_collection.h
+/home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.h
+
