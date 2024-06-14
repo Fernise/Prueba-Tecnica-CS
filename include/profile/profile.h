@@ -7,15 +7,15 @@
 class Profile {
  public:
   Profile() = default;
-  Profile(const std::string& kName, const int kAge) : name_(kName), age_(kAge) { };
+  Profile(const std::string& kName, const int kAge);
   const std::string& GetName() const { return name_; }
-  const int GetAge() const { return age_; }
-  const int GetId() const { return id_; }
+  constexpr int GetAge() const { return age_; }
+  constexpr int GetId() const { return id_; }
   void SetName(const std::string& kName) { name_ = kName; }
   void SetAge(const int kAge) { age_ = kAge; }
   void SetId(const int kId) { id_ = kId; }
-  void UpdateName();
-  void UpdateAge();
+  void UpdateName(const std::string& kName);
+  void UpdateAge(const int kAge);
   friend std::ostream& operator<<(std::ostream&, const Profile&);
 
  private:

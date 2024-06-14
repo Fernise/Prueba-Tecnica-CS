@@ -2,33 +2,44 @@
 
 #include "profile.h"
 
-
-Profile::Profile(const std::string& kName, const int kAge) { 
+/**
+ * @brief Profile constructor
+ * @param kName The profile name
+ * @param kAge The profile age
+ */
+Profile::Profile(const std::string& kName, const int kAge) :  name_(kName), age_(kAge) { 
   // This constant is used as the maximum number the random value could be minus one 
   const int kMaxValue = 100;
   // The random value could be between 0 and 99
   const int kRandomValue = std::rand() % kMaxValue;
-  SetId((kRandomValue / kAge) + kName[0]);
+  // Lambda function which returns an ID for the new profile
+  auto GenerateId = [kName, kAge, kRandomValue]() -> int {
+    return (kRandomValue / kAge) + kName[0];
+  };
+  SetId(GenerateId());
 }
 
-
-void Profile::UpdateName() {
-  std::cout << "What name do you prefer?\n";
-  std::string name = "";
-  std::cin >> name;
-  SetName(name);
-  std::cout << "\nYour name has been successfully changed\n";
+/**
+ * @brief Updates the profile name
+ * @param kName The new profile name
+ */
+void Profile::UpdateName(const std::string& kName) {
+  SetName(kName);
 }
 
-void Profile::UpdateAge() {
-  std::cout << "How old are you?\n";
-  int age = 0;
-  std::cin >> age;
-  // Poner el try catch en el main
-  age > 1 && age <= 100 ? SetAge(age) : throw std::out_of_range("La edad debe ser válida");
+/**
+ * @brief Updates the profile age
+ * @param kAge The new profile age
+ */
+void Profile::UpdateAge(const int kAge) {
+  (kAge > 1 && kAge <= 100) ? SetAge(kAge) : throw std::out_of_range("La edad debe ser válida");
 }
 
-
+/**
+ * @brief Insertion operator overload
+ * @param os The std::ostream object
+ * @param kMyProfile The profile to be sent to the output stream
+ */
 std::ostream& operator<<(std::ostream& os, const Profile& kMyProfile) {
   os << kMyProfile.GetName() << " " << kMyProfile.GetAge();
 

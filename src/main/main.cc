@@ -16,7 +16,8 @@ int main() {
   y.CreateProfile(pruebas, 9);
   std::cout << y;
   y.ReadProfileInfo(82);
-  y.UpdateProfile(82);
+  std::tuple<std::string, int, int> a({"Paco", 4, 2});
+  y.UpdateProfile(82, a);
   std::cout << y << "\n";
   y.DeleteProfile(82);
   std::cout << y;
