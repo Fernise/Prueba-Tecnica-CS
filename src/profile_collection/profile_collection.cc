@@ -12,28 +12,39 @@ void ProfileCollection::CreateProfile(const std::string& kName, const int kAge) 
 }
 
 // Read profile info
-void ProfileCollection::ReadProfileInfo(const int kId) {
-  const auto& kKey = profiles_group_.find(kId);
-  if (kKey != profiles_group_.end()) {
-    std::cout << "Nombre: " << kKey->second.GetName() << "\nEdad: " << kKey->second.GetAge() << "\n"; 
-  } else {
+std::optional<Profile> ProfileCollection::ReadProfileInfo(const int kId) const {
+  try {
+    return profiles_group_.at(kId);
+  } catch (const std::out_of_range& e) {
     std::cout << "Error: No se ha podido encontrar el perfil seleccionado\n";
+    return std::nullopt;
   } 
 }
 
 // Update profile info
 void ProfileCollection::UpdateProfile(const int kId, const std::tuple<std::string, int, int>& kProfileInfo) {
-  const auto& kKey = profiles_group_.find(kId);
   const auto [kName, kAge, kMode] = kProfileInfo;
-  // Mode == 1, updates name
-  if (kKey != profiles_group_.end() && kMode == 1) {
-    kKey->second.UpdateName(kName);
-  // Mode == 2, updates age
-  } else if (kKey != profiles_group_.end() && kMode == 2) {
-    kKey->second.UpdateAge(kAge);
-  } else {
-    std::cout << "\nError: The profile has not been found\n";
-  }
+  try {
+    switch(kMode) {
+      // Mode == 1, updates name
+      case 1: 
+        profiles_group_.at(kId).SetName(kName);
+        break;
+      // Mode == 2, updates age
+      case 2:
+        profiles_group_.at(kId).SetAge(kAge);
+        break;
+      // Mode == 3, updates both
+      case 3:
+        profiles_group_.at(kId).SetName(kName);
+        profiles_group_.at(kId).SetAge(kAge);  
+        break;
+      default:
+        std::cout << "\nError: The profile has not been found\n";
+    }
+  } catch (const std::out_of_range& e) {
+    std::cout << "Error: No se ha podido encontrar el perfil seleccionado\n";
+  }   
 }
 
 // Remove profile

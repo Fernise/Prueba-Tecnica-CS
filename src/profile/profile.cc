@@ -20,22 +20,6 @@ Profile::Profile(const std::string& kName, const int kAge) :  name_(kName), age_
 }
 
 /**
- * @brief Updates the profile name
- * @param kName The new profile name
- */
-void Profile::UpdateName(const std::string& kName) {
-  SetName(kName);
-}
-
-/**
- * @brief Updates the profile age
- * @param kAge The new profile age
- */
-void Profile::UpdateAge(const int kAge) {
-  (kAge > 1 && kAge <= 100) ? SetAge(kAge) : throw std::out_of_range("La edad debe ser válida");
-}
-
-/**
  * @brief Insertion operator overload
  * @param os The std::ostream object
  * @param kMyProfile The profile to be sent to the output stream

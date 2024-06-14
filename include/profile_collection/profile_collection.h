@@ -17,9 +17,10 @@ class ProfileCollection {
   const std::unordered_map<int, Profile>& GetProfilesGroup() const { return profiles_group_; }
   void SetProfilesGroup(const std::unordered_map<int, Profile>& profiles_group_to_set) { profiles_group_ = std::move(profiles_group_to_set); }
   void CreateProfile(const std::string&, const int);
-  void ReadProfileInfo(const int);
+  std::optional<Profile> ReadProfileInfo(const int) const;
   void UpdateProfile(const int, const std::tuple<std::string, int, int>&);
   void DeleteProfile(const int);
+  std::optional<Profile> GetSingleProfile(const int kId) const;
   friend std::ostream& operator<<(std::ostream&, const ProfileCollection&);
 
  private:
