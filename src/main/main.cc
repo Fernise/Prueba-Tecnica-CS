@@ -14,8 +14,11 @@ int main() {
 
   y.CreateProfile(prueba, 8);
   y.CreateProfile(pruebas, 9);
-  // std::unordered_map<int, Profile> prueba{{1, x}};
-  // y.SetProfilesGroup(prueba);
+  std::cout << y;
+  y.ReadProfileInfo(82);
+  y.UpdateProfile(82);
+  std::cout << y << "\n";
+  y.DeleteProfile(82);
   std::cout << y;
 
   return 0;

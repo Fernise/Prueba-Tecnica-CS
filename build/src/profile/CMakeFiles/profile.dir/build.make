@@ -60,15 +60,15 @@ include src/profile/CMakeFiles/profile.dir/flags.make
 src/profile/CMakeFiles/profile.dir/profile.cc.o: src/profile/CMakeFiles/profile.dir/flags.make
 src/profile/CMakeFiles/profile.dir/profile.cc.o: ../src/profile/profile.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fer/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/profile/CMakeFiles/profile.dir/profile.cc.o"
-	cd /home/fer/Documents/Common_Solutions/build/src/profile && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/profile.dir/profile.cc.o -c /home/fer/Documents/Common_Solutions/src/profile/profile.cc
+	cd /home/fer/Documents/Common_Solutions/build/src/profile && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/profile.dir/profile.cc.o -c /home/fer/Documents/Common_Solutions/src/profile/profile.cc
 
 src/profile/CMakeFiles/profile.dir/profile.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/profile.dir/profile.cc.i"
-	cd /home/fer/Documents/Common_Solutions/build/src/profile && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fer/Documents/Common_Solutions/src/profile/profile.cc > CMakeFiles/profile.dir/profile.cc.i
+	cd /home/fer/Documents/Common_Solutions/build/src/profile && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fer/Documents/Common_Solutions/src/profile/profile.cc > CMakeFiles/profile.dir/profile.cc.i
 
 src/profile/CMakeFiles/profile.dir/profile.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/profile.dir/profile.cc.s"
-	cd /home/fer/Documents/Common_Solutions/build/src/profile && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fer/Documents/Common_Solutions/src/profile/profile.cc -o CMakeFiles/profile.dir/profile.cc.s
+	cd /home/fer/Documents/Common_Solutions/build/src/profile && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fer/Documents/Common_Solutions/src/profile/profile.cc -o CMakeFiles/profile.dir/profile.cc.s
 
 # Object files for target profile
 profile_OBJECTS = \

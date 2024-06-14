@@ -10,7 +10,7 @@ La muestra de código es libre, aunque debe cumplir unos requisitos. Al final ha
 * Añadir al README.md instrucciones (build & run), y lo que se considere oportuno.
 
 ## Bonus
-* Conan config con CMake.
+* Conan config con CMake. d
 * C++ templates.
 * Unit-testing (gtest/gmock ó Catch2).
 * Git.

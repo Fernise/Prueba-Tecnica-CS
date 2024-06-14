@@ -1,0 +1,110 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/profile",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/profile",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/profile_collection",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/profile_collection",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "Common_Solutions",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Common_Solutions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Common_Solutions-Debug-c2b889a595d423b7195f.json",
+					"name" : "Common_Solutions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "profile::@6854a40e7536bd018ae9",
+					"jsonFile" : "target-profile-Debug-b7b7d7bb7ad67c4f8c48.json",
+					"name" : "profile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "profile_collection::@fa5df70e74990bea04b4",
+					"jsonFile" : "target-profile_collection-Debug-f5abea0fddfa8b8dd516.json",
+					"name" : "profile_collection",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fer/Documents/Common_Solutions/build",
+		"source" : "/home/fer/Documents/Common_Solutions"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

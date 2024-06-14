@@ -1,8 +1,8 @@
 #include <iostream>
 #include <tuple>
-#include <chrono>
 
 #include "profile_collection.h"
+#include "profile.h"
 
 // CRUD profiles
 // Creates a profile
@@ -21,36 +21,38 @@ void ProfileCollection::ReadProfileInfo(const int kId) {
   const auto& kKey = profiles_group_.find(kId);
   if (kKey != profiles_group_.end()) {
     std::cout << "Nombre: " << kKey->second.GetName() << "\nEdad: " << kKey->second.GetAge() << "\n"; 
-  }
-  else {
+  } else {
     std::cout << "Error: No se ha podido encontrar el perfil seleccionado\n";
   } 
 }
 
-// // Update profile info
-// void ProfileCollection::UpdateName() {
-//   std::cout << "What name do you prefer? ";
-//   std::string name = "";
-//   std::cin >> name;
-//   SetName(name);
-// }
+// Update profile info
+void ProfileCollection::UpdateProfile(const int kId) {
+  const auto& kKey = profiles_group_.find(kId);
+  if (kKey != profiles_group_.end()) {
+    std::cout << "What field would you like to change?(1/2)\n1. Name\n2. Age\n"; 
+    int option = 0;
+    std::cin >> option;
+    (option == 1) ? kKey->second.UpdateName() : (option == 2) ? kKey->second.UpdateAge() : throw std::out_of_range("\nThe option must be valid\n");
+  } else {
+    std::cout << "\nError: The profile has not been found\n";
+  }
+}
 
-// void ProfileCollection::UpdateAge() {
-//   std::cout << "How old are you?\n";
-//   int age = 0;
-//   std::cin >> age;
-//   // Poner el try catch en el main
-//   age > 1 && age <= 100 ? SetAge(age) : throw std::out_of_range("La edad debe ser válida");
-// }
-
-// // Remove profile
-// void Profile::DeleteProfile() {
-//   delete this;
-// }
+// Remove profile
+void ProfileCollection::DeleteProfile(const int kId) {
+  const auto& kKey = profiles_group_.find(kId);
+  if (kKey != profiles_group_.end()) {
+    profiles_group_.erase(kKey);
+  }
+  else {
+    std::cout << "\nError: The profile has not been found\n";
+  }
+}
 
 std::ostream& operator<<(std::ostream& os, const ProfileCollection& kProfilesGroup) {
   for (const auto& kProfile : kProfilesGroup.GetProfilesGroup()) {
-    os << "    " << kProfile.first << " (" << kProfile.second << ")" << std::endl;
+    os << "    " << kProfile.first << " (" << kProfile.second << ")\n";
   }
   return os;
 }

@@ -14,6 +14,8 @@ class Profile {
   void SetName(const std::string& kName) { name_ = kName; }
   void SetAge(const int kAge) { age_ = kAge; }
   void SetId(const int kId) { id_ = kId; }
+  void UpdateName();
+  void UpdateAge();
   friend std::ostream& operator<<(std::ostream&, const Profile&);
 
  private:

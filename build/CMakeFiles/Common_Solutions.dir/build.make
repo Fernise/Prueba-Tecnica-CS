@@ -60,41 +60,41 @@ include CMakeFiles/Common_Solutions.dir/flags.make
 CMakeFiles/Common_Solutions.dir/src/main/main.cc.o: CMakeFiles/Common_Solutions.dir/flags.make
 CMakeFiles/Common_Solutions.dir/src/main/main.cc.o: ../src/main/main.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fer/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Common_Solutions.dir/src/main/main.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Common_Solutions.dir/src/main/main.cc.o -c /home/fer/Documents/Common_Solutions/src/main/main.cc
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Common_Solutions.dir/src/main/main.cc.o -c /home/fer/Documents/Common_Solutions/src/main/main.cc
 
 CMakeFiles/Common_Solutions.dir/src/main/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Common_Solutions.dir/src/main/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fer/Documents/Common_Solutions/src/main/main.cc > CMakeFiles/Common_Solutions.dir/src/main/main.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fer/Documents/Common_Solutions/src/main/main.cc > CMakeFiles/Common_Solutions.dir/src/main/main.cc.i
 
 CMakeFiles/Common_Solutions.dir/src/main/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Common_Solutions.dir/src/main/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fer/Documents/Common_Solutions/src/main/main.cc -o CMakeFiles/Common_Solutions.dir/src/main/main.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fer/Documents/Common_Solutions/src/main/main.cc -o CMakeFiles/Common_Solutions.dir/src/main/main.cc.s
 
 CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.o: CMakeFiles/Common_Solutions.dir/flags.make
 CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.o: ../src/profile/profile.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fer/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.o -c /home/fer/Documents/Common_Solutions/src/profile/profile.cc
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.o -c /home/fer/Documents/Common_Solutions/src/profile/profile.cc
 
 CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fer/Documents/Common_Solutions/src/profile/profile.cc > CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fer/Documents/Common_Solutions/src/profile/profile.cc > CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.i
 
 CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fer/Documents/Common_Solutions/src/profile/profile.cc -o CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fer/Documents/Common_Solutions/src/profile/profile.cc -o CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.s
 
 CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.o: CMakeFiles/Common_Solutions.dir/flags.make
 CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.o: ../src/profile_collection/profile_collection.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fer/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.o -c /home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.o -c /home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc
 
 CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc > CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc > CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.i
 
 CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc -o CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc -o CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.s
 
 # Object files for target Common_Solutions
 Common_Solutions_OBJECTS = \

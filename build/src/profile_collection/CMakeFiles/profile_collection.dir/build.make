@@ -60,15 +60,15 @@ include src/profile_collection/CMakeFiles/profile_collection.dir/flags.make
 src/profile_collection/CMakeFiles/profile_collection.dir/profile_collection.cc.o: src/profile_collection/CMakeFiles/profile_collection.dir/flags.make
 src/profile_collection/CMakeFiles/profile_collection.dir/profile_collection.cc.o: ../src/profile_collection/profile_collection.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fer/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/profile_collection/CMakeFiles/profile_collection.dir/profile_collection.cc.o"
-	cd /home/fer/Documents/Common_Solutions/build/src/profile_collection && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/profile_collection.dir/profile_collection.cc.o -c /home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc
+	cd /home/fer/Documents/Common_Solutions/build/src/profile_collection && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/profile_collection.dir/profile_collection.cc.o -c /home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc
 
 src/profile_collection/CMakeFiles/profile_collection.dir/profile_collection.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/profile_collection.dir/profile_collection.cc.i"
-	cd /home/fer/Documents/Common_Solutions/build/src/profile_collection && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc > CMakeFiles/profile_collection.dir/profile_collection.cc.i
+	cd /home/fer/Documents/Common_Solutions/build/src/profile_collection && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc > CMakeFiles/profile_collection.dir/profile_collection.cc.i
 
 src/profile_collection/CMakeFiles/profile_collection.dir/profile_collection.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/profile_collection.dir/profile_collection.cc.s"
-	cd /home/fer/Documents/Common_Solutions/build/src/profile_collection && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc -o CMakeFiles/profile_collection.dir/profile_collection.cc.s
+	cd /home/fer/Documents/Common_Solutions/build/src/profile_collection && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc -o CMakeFiles/profile_collection.dir/profile_collection.cc.s
 
 # Object files for target profile_collection
 profile_collection_OBJECTS = \

@@ -29,8 +29,8 @@ iostream
 -
 tuple
 -
-chrono
--
 profile_collection.h
 /home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.h
+profile.h
+/home/fer/Documents/Common_Solutions/src/profile_collection/profile.h
 
