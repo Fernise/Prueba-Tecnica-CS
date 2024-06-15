@@ -7,9 +7,9 @@
 class Profile {
  public:
   Profile() = default;
-  Profile(const std::string& kName, const int kAge);
+  Profile(const std::string&, const int);
   const std::string& GetName() const { return name_; }
-  const int GetAge() const { return age_; }
+  int GetAge() const { return age_; }
   int GetId() const { return id_; }
   void SetName(const std::string& kName) { name_ = kName; }
   void SetAge(const int kAge) { age_ = kAge; }

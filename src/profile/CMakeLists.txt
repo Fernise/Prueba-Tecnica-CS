@@ -1,5 +1,4 @@
 add_library(profile SHARED
-  ../../include/profile/profile.h
   profile.cc)
 
 target_include_directories(profile PUBLIC

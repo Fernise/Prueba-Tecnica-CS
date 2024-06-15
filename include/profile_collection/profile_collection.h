@@ -6,6 +6,7 @@
 #include <string>
 #include <utility>
 #include <tuple>
+#include <optional>
 
 #include "../profile/profile.h"
 
@@ -14,16 +15,20 @@ class Profile;
 class ProfileCollection {
  public:
   ProfileCollection() = default;
+  /// @brief Gets the collection of profiles
+  /// @return const std::unordered_map<int, Profile>& Returns that collection
   const std::unordered_map<int, Profile>& GetProfilesGroup() const { return profiles_group_; }
+  /// @brief Gets the collection of profiles
+  /// @return std::unordered_map<int, Profile>& Returns that collection
+  std::unordered_map<int, Profile>& GetProfilesGroup() { return profiles_group_; }
+  /// @brief Sets a new collection of profiles
+  /// @param const std::unordered_map<int, Profile>& The collection to set
   void SetProfilesGroup(const std::unordered_map<int, Profile>& profiles_group_to_set) { profiles_group_ = std::move(profiles_group_to_set); }
-  void CreateProfile(const std::string&, const int);
-  std::optional<Profile> ReadProfileInfo(const int) const;
-  void UpdateProfile(const int, const std::tuple<std::string, int, int>&);
-  void DeleteProfile(const int);
-  std::optional<Profile> GetSingleProfile(const int kId) const;
+  std::optional<Profile> GetProfile(const int) const;
+  void InsertProfile (const Profile& kNewProfile); 
   friend std::ostream& operator<<(std::ostream&, const ProfileCollection&);
 
- private:
+ protected:
   std::unordered_map<int, Profile> profiles_group_;
 };
 

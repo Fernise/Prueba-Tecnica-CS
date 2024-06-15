@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/profile.dir/profile.cc.o"
+  "CMakeFiles/profile.dir/profile.cc.obj"
+  "CMakeFiles/profile.dir/profile.cc.obj.d"
+  "libprofile.dll"
+  "libprofile.dll.a"
+  "libprofile.dll.manifest"
   "libprofile.pdb"
-  "libprofile.so"
 )
 
 # Per-language clean rules from dependency scanning.

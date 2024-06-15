@@ -48,8 +48,12 @@
     "codecvt": "cpp",
     "ctime": "cpp",
     "ratio": "cpp",
-    "iomanip": "cpp"
+    "iomanip": "cpp",
+    "compare": "cpp",
+    "concepts": "cpp",
+    "numbers": "cpp"
   },
-  "C_Cpp.default.compilerPath": "/usr/bin/g++",
-  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+  "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\g++.exe",
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "cmake.configureOnOpen": true
 }

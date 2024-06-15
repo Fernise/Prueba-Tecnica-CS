@@ -1,1 +1,0 @@
-/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libprofile.so -o libprofile.so CMakeFiles/profile.dir/profile.cc.o 

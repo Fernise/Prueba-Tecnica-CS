@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "profile.h"
+#include "../../include/profile/profile.h"
 
 /**
  * @brief Profile constructor
@@ -23,9 +23,10 @@ Profile::Profile(const std::string& kName, const int kAge) :  name_(kName), age_
  * @brief Insertion operator overload
  * @param os The std::ostream object
  * @param kMyProfile The profile to be sent to the output stream
+ * @return os The std::ostream object
  */
 std::ostream& operator<<(std::ostream& os, const Profile& kMyProfile) {
-  os << kMyProfile.GetName() << " " << kMyProfile.GetAge();
+  os << "Name: " << kMyProfile.GetName() << "\nAge: " << kMyProfile.GetAge();
 
   return os;
 }

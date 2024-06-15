@@ -1,26 +1,24 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/fer/Documents/Common_Solutions/src/main/main.cc" "/home/fer/Documents/Common_Solutions/build/CMakeFiles/Common_Solutions.dir/src/main/main.cc.o"
-  "/home/fer/Documents/Common_Solutions/src/profile/profile.cc" "/home/fer/Documents/Common_Solutions/build/CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.o"
-  "/home/fer/Documents/Common_Solutions/src/profile_collection/profile_collection.cc" "/home/fer/Documents/Common_Solutions/build/CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../src/profile/../../include/profile"
-  "../src/profile_collection/../../include/profile_collection"
-  "../src/profile_collection/../../include/profile"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/fer/Documents/Common_Solutions/build/src/profile/CMakeFiles/profile.dir/DependInfo.cmake"
-  "/home/fer/Documents/Common_Solutions/build/src/profile_collection/CMakeFiles/profile_collection.dir/DependInfo.cmake"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Fernando/Documents/Common_Solutions/src/main/main.cc" "CMakeFiles/Common_Solutions.dir/src/main/main.cc.obj" "gcc" "CMakeFiles/Common_Solutions.dir/src/main/main.cc.obj.d"
+  "C:/Users/Fernando/Documents/Common_Solutions/src/profile/profile.cc" "CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj" "gcc" "CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj.d"
+  "C:/Users/Fernando/Documents/Common_Solutions/src/profile_collection/profile_collection.cc" "CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj" "gcc" "CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
