@@ -6,5 +6,5 @@ CXX_DEFINES = -Dprofile_collection_EXPORTS
 
 CXX_INCLUDES = @CMakeFiles/profile_collection.dir/includes_CXX.rsp
 
-CXX_FLAGS = 
+CXX_FLAGS = -g
 

@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Common_Solutions.dir/includes_CXX.rsp -g -o CMakeFiles/Common_Solutions.dir/src/main/main.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/main/main.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/main/main.cc",
+  "output": "CMakeFiles/Common_Solutions.dir/src/main/main.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Common_Solutions.dir/includes_CXX.rsp -g -o CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/profile/profile.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/profile/profile.cc",
+  "output": "CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Common_Solutions.dir/includes_CXX.rsp -g -o CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/profile_collection/profile_collection.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/profile_collection/profile_collection.cc",
+  "output": "CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build/src/profile",
+  "command": "C:/msys64/mingw64/bin/g++.exe -Dprofile_EXPORTS @CMakeFiles/profile.dir/includes_CXX.rsp -g -o CMakeFiles/profile.dir/profile.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/profile/profile.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/profile/profile.cc",
+  "output": "src/profile/CMakeFiles/profile.dir/profile.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build/src/profile_collection",
+  "command": "C:/msys64/mingw64/bin/g++.exe -Dprofile_collection_EXPORTS @CMakeFiles/profile_collection.dir/includes_CXX.rsp -g -o CMakeFiles/profile_collection.dir/profile_collection.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/profile_collection/profile_collection.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/profile_collection/profile_collection.cc",
+  "output": "src/profile_collection/CMakeFiles/profile_collection.dir/profile_collection.cc.obj"
+}
+]
