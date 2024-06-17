@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/business",
+					"jsonFile" : "directory-src.business-Debug-a7658bc67704b8386a43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/business",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/client",
+					"jsonFile" : "directory-src.client-Debug-40aaa8b507c401118c86.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/client",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/client_repository",
+					"jsonFile" : "directory-src.client_repository-Debug-72e1d5dfd27b479af463.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/client_repository",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/supplier",
+					"jsonFile" : "directory-src.supplier-Debug-ce8516d3e40dd8fecdc7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/supplier",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/supplier_repository",
+					"jsonFile" : "directory-src.supplier_repository-Debug-8d1d8996b78af2d7a374.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/supplier_repository",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/menu",
+					"jsonFile" : "directory-src.menu-Debug-24298c2f0c95e69e5967.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/menu",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "Common_Solutions",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Common_Solutions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Common_Solutions-Debug-1e2c728ad14d92487eca.json",
+					"name" : "Common_Solutions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "business::@26b0ab83928d411a3581",
+					"jsonFile" : "target-business-Debug-6fe8c9973e83615167c5.json",
+					"name" : "business",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "client::@8ca63c80a879d0067daa",
+					"jsonFile" : "target-client-Debug-db9d022d2d5585c48823.json",
+					"name" : "client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "client_repository::@7b28b0985fd604f8698c",
+					"jsonFile" : "target-client_repository-Debug-62f63072b8fc8ada1cd9.json",
+					"name" : "client_repository",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "menu::@e6c6aa62fec80ede8ffd",
+					"jsonFile" : "target-menu-Debug-8d631e2f940ca74b1470.json",
+					"name" : "menu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "supplier::@1aea1a7a08d7ecf8ad9d",
+					"jsonFile" : "target-supplier-Debug-e228fbe89f512a8ab3ce.json",
+					"name" : "supplier",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "supplier_repository::@f238005961f8d03230cb",
+					"jsonFile" : "target-supplier_repository-Debug-63e28b6d9410f8b5df4d.json",
+					"name" : "supplier_repository",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Fernando/Documents/Common_Solutions/build",
+		"source" : "C:/Users/Fernando/Documents/Common_Solutions"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

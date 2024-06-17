@@ -64,65 +64,141 @@ CMAKE_BINARY_DIR = C:/Users/Fernando/Documents/Common_Solutions/build
 
 # The main recursive "all" target.
 all: CMakeFiles/Common_Solutions.dir/all
-all: src/profile/all
-all: src/profile_collection/all
+all: src/business/all
+all: src/client/all
+all: src/client_repository/all
+all: src/supplier/all
+all: src/supplier_repository/all
+all: src/menu/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: src/profile/preinstall
-preinstall: src/profile_collection/preinstall
+preinstall: src/business/preinstall
+preinstall: src/client/preinstall
+preinstall: src/client_repository/preinstall
+preinstall: src/supplier/preinstall
+preinstall: src/supplier_repository/preinstall
+preinstall: src/menu/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Common_Solutions.dir/clean
-clean: src/profile/clean
-clean: src/profile_collection/clean
+clean: src/business/clean
+clean: src/client/clean
+clean: src/client_repository/clean
+clean: src/supplier/clean
+clean: src/supplier_repository/clean
+clean: src/menu/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory src/profile
+# Directory level rules for directory src/business
 
 # Recursive "all" directory target.
-src/profile/all: src/profile/CMakeFiles/profile.dir/all
-.PHONY : src/profile/all
+src/business/all: src/business/CMakeFiles/business.dir/all
+.PHONY : src/business/all
 
 # Recursive "preinstall" directory target.
-src/profile/preinstall:
-.PHONY : src/profile/preinstall
+src/business/preinstall:
+.PHONY : src/business/preinstall
 
 # Recursive "clean" directory target.
-src/profile/clean: src/profile/CMakeFiles/profile.dir/clean
-.PHONY : src/profile/clean
+src/business/clean: src/business/CMakeFiles/business.dir/clean
+.PHONY : src/business/clean
 
 #=============================================================================
-# Directory level rules for directory src/profile_collection
+# Directory level rules for directory src/client
 
 # Recursive "all" directory target.
-src/profile_collection/all: src/profile_collection/CMakeFiles/profile_collection.dir/all
-.PHONY : src/profile_collection/all
+src/client/all: src/client/CMakeFiles/client.dir/all
+.PHONY : src/client/all
 
 # Recursive "preinstall" directory target.
-src/profile_collection/preinstall:
-.PHONY : src/profile_collection/preinstall
+src/client/preinstall:
+.PHONY : src/client/preinstall
 
 # Recursive "clean" directory target.
-src/profile_collection/clean: src/profile_collection/CMakeFiles/profile_collection.dir/clean
-.PHONY : src/profile_collection/clean
+src/client/clean: src/client/CMakeFiles/client.dir/clean
+.PHONY : src/client/clean
+
+#=============================================================================
+# Directory level rules for directory src/client_repository
+
+# Recursive "all" directory target.
+src/client_repository/all: src/client_repository/CMakeFiles/client_repository.dir/all
+.PHONY : src/client_repository/all
+
+# Recursive "preinstall" directory target.
+src/client_repository/preinstall:
+.PHONY : src/client_repository/preinstall
+
+# Recursive "clean" directory target.
+src/client_repository/clean: src/client_repository/CMakeFiles/client_repository.dir/clean
+.PHONY : src/client_repository/clean
+
+#=============================================================================
+# Directory level rules for directory src/menu
+
+# Recursive "all" directory target.
+src/menu/all: src/menu/CMakeFiles/menu.dir/all
+.PHONY : src/menu/all
+
+# Recursive "preinstall" directory target.
+src/menu/preinstall:
+.PHONY : src/menu/preinstall
+
+# Recursive "clean" directory target.
+src/menu/clean: src/menu/CMakeFiles/menu.dir/clean
+.PHONY : src/menu/clean
+
+#=============================================================================
+# Directory level rules for directory src/supplier
+
+# Recursive "all" directory target.
+src/supplier/all: src/supplier/CMakeFiles/supplier.dir/all
+.PHONY : src/supplier/all
+
+# Recursive "preinstall" directory target.
+src/supplier/preinstall:
+.PHONY : src/supplier/preinstall
+
+# Recursive "clean" directory target.
+src/supplier/clean: src/supplier/CMakeFiles/supplier.dir/clean
+.PHONY : src/supplier/clean
+
+#=============================================================================
+# Directory level rules for directory src/supplier_repository
+
+# Recursive "all" directory target.
+src/supplier_repository/all: src/supplier_repository/CMakeFiles/supplier_repository.dir/all
+.PHONY : src/supplier_repository/all
+
+# Recursive "preinstall" directory target.
+src/supplier_repository/preinstall:
+.PHONY : src/supplier_repository/preinstall
+
+# Recursive "clean" directory target.
+src/supplier_repository/clean: src/supplier_repository/CMakeFiles/supplier_repository.dir/clean
+.PHONY : src/supplier_repository/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Common_Solutions.dir
 
 # All Build rule for target.
-CMakeFiles/Common_Solutions.dir/all: src/profile/CMakeFiles/profile.dir/all
-CMakeFiles/Common_Solutions.dir/all: src/profile_collection/CMakeFiles/profile_collection.dir/all
+CMakeFiles/Common_Solutions.dir/all: src/business/CMakeFiles/business.dir/all
+CMakeFiles/Common_Solutions.dir/all: src/client/CMakeFiles/client.dir/all
+CMakeFiles/Common_Solutions.dir/all: src/client_repository/CMakeFiles/client_repository.dir/all
+CMakeFiles/Common_Solutions.dir/all: src/supplier/CMakeFiles/supplier.dir/all
+CMakeFiles/Common_Solutions.dir/all: src/supplier_repository/CMakeFiles/supplier_repository.dir/all
+CMakeFiles/Common_Solutions.dir/all: src/menu/CMakeFiles/menu.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=1,2,3,4 "Built target Common_Solutions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Common_Solutions"
 .PHONY : CMakeFiles/Common_Solutions.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Common_Solutions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Common_Solutions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 0
 .PHONY : CMakeFiles/Common_Solutions.dir/rule
@@ -137,56 +213,161 @@ CMakeFiles/Common_Solutions.dir/clean:
 .PHONY : CMakeFiles/Common_Solutions.dir/clean
 
 #=============================================================================
-# Target rules for target src/profile/CMakeFiles/profile.dir
+# Target rules for target src/business/CMakeFiles/business.dir
 
 # All Build rule for target.
-src/profile/CMakeFiles/profile.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/profile/CMakeFiles/profile.dir/build.make src/profile/CMakeFiles/profile.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/profile/CMakeFiles/profile.dir/build.make src/profile/CMakeFiles/profile.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=5,6 "Built target profile"
-.PHONY : src/profile/CMakeFiles/profile.dir/all
+src/business/CMakeFiles/business.dir/all: src/client_repository/CMakeFiles/client_repository.dir/all
+src/business/CMakeFiles/business.dir/all: src/supplier_repository/CMakeFiles/supplier_repository.dir/all
+	$(MAKE) $(MAKESILENT) -f src/business/CMakeFiles/business.dir/build.make src/business/CMakeFiles/business.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/business/CMakeFiles/business.dir/build.make src/business/CMakeFiles/business.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=9,10 "Built target business"
+.PHONY : src/business/CMakeFiles/business.dir/all
 
 # Build rule for subdir invocation for target.
-src/profile/CMakeFiles/profile.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/profile/CMakeFiles/profile.dir/all
+src/business/CMakeFiles/business.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/business/CMakeFiles/business.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 0
-.PHONY : src/profile/CMakeFiles/profile.dir/rule
+.PHONY : src/business/CMakeFiles/business.dir/rule
 
 # Convenience name for target.
-profile: src/profile/CMakeFiles/profile.dir/rule
-.PHONY : profile
+business: src/business/CMakeFiles/business.dir/rule
+.PHONY : business
 
 # clean rule for target.
-src/profile/CMakeFiles/profile.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/profile/CMakeFiles/profile.dir/build.make src/profile/CMakeFiles/profile.dir/clean
-.PHONY : src/profile/CMakeFiles/profile.dir/clean
+src/business/CMakeFiles/business.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/business/CMakeFiles/business.dir/build.make src/business/CMakeFiles/business.dir/clean
+.PHONY : src/business/CMakeFiles/business.dir/clean
 
 #=============================================================================
-# Target rules for target src/profile_collection/CMakeFiles/profile_collection.dir
+# Target rules for target src/client/CMakeFiles/client.dir
 
 # All Build rule for target.
-src/profile_collection/CMakeFiles/profile_collection.dir/all: src/profile/CMakeFiles/profile.dir/all
-	$(MAKE) $(MAKESILENT) -f src/profile_collection/CMakeFiles/profile_collection.dir/build.make src/profile_collection/CMakeFiles/profile_collection.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/profile_collection/CMakeFiles/profile_collection.dir/build.make src/profile_collection/CMakeFiles/profile_collection.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=7,8 "Built target profile_collection"
-.PHONY : src/profile_collection/CMakeFiles/profile_collection.dir/all
+src/client/CMakeFiles/client.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client.dir/build.make src/client/CMakeFiles/client.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client.dir/build.make src/client/CMakeFiles/client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=11,12 "Built target client"
+.PHONY : src/client/CMakeFiles/client.dir/all
 
 # Build rule for subdir invocation for target.
-src/profile_collection/CMakeFiles/profile_collection.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/profile_collection/CMakeFiles/profile_collection.dir/all
+src/client/CMakeFiles/client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/CMakeFiles/client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 0
-.PHONY : src/profile_collection/CMakeFiles/profile_collection.dir/rule
+.PHONY : src/client/CMakeFiles/client.dir/rule
 
 # Convenience name for target.
-profile_collection: src/profile_collection/CMakeFiles/profile_collection.dir/rule
-.PHONY : profile_collection
+client: src/client/CMakeFiles/client.dir/rule
+.PHONY : client
 
 # clean rule for target.
-src/profile_collection/CMakeFiles/profile_collection.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/profile_collection/CMakeFiles/profile_collection.dir/build.make src/profile_collection/CMakeFiles/profile_collection.dir/clean
-.PHONY : src/profile_collection/CMakeFiles/profile_collection.dir/clean
+src/client/CMakeFiles/client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client.dir/build.make src/client/CMakeFiles/client.dir/clean
+.PHONY : src/client/CMakeFiles/client.dir/clean
+
+#=============================================================================
+# Target rules for target src/client_repository/CMakeFiles/client_repository.dir
+
+# All Build rule for target.
+src/client_repository/CMakeFiles/client_repository.dir/all: src/client/CMakeFiles/client.dir/all
+	$(MAKE) $(MAKESILENT) -f src/client_repository/CMakeFiles/client_repository.dir/build.make src/client_repository/CMakeFiles/client_repository.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/client_repository/CMakeFiles/client_repository.dir/build.make src/client_repository/CMakeFiles/client_repository.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=13,14 "Built target client_repository"
+.PHONY : src/client_repository/CMakeFiles/client_repository.dir/all
+
+# Build rule for subdir invocation for target.
+src/client_repository/CMakeFiles/client_repository.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client_repository/CMakeFiles/client_repository.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 0
+.PHONY : src/client_repository/CMakeFiles/client_repository.dir/rule
+
+# Convenience name for target.
+client_repository: src/client_repository/CMakeFiles/client_repository.dir/rule
+.PHONY : client_repository
+
+# clean rule for target.
+src/client_repository/CMakeFiles/client_repository.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/client_repository/CMakeFiles/client_repository.dir/build.make src/client_repository/CMakeFiles/client_repository.dir/clean
+.PHONY : src/client_repository/CMakeFiles/client_repository.dir/clean
+
+#=============================================================================
+# Target rules for target src/supplier/CMakeFiles/supplier.dir
+
+# All Build rule for target.
+src/supplier/CMakeFiles/supplier.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/supplier/CMakeFiles/supplier.dir/build.make src/supplier/CMakeFiles/supplier.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/supplier/CMakeFiles/supplier.dir/build.make src/supplier/CMakeFiles/supplier.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=17,18 "Built target supplier"
+.PHONY : src/supplier/CMakeFiles/supplier.dir/all
+
+# Build rule for subdir invocation for target.
+src/supplier/CMakeFiles/supplier.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/supplier/CMakeFiles/supplier.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 0
+.PHONY : src/supplier/CMakeFiles/supplier.dir/rule
+
+# Convenience name for target.
+supplier: src/supplier/CMakeFiles/supplier.dir/rule
+.PHONY : supplier
+
+# clean rule for target.
+src/supplier/CMakeFiles/supplier.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/supplier/CMakeFiles/supplier.dir/build.make src/supplier/CMakeFiles/supplier.dir/clean
+.PHONY : src/supplier/CMakeFiles/supplier.dir/clean
+
+#=============================================================================
+# Target rules for target src/supplier_repository/CMakeFiles/supplier_repository.dir
+
+# All Build rule for target.
+src/supplier_repository/CMakeFiles/supplier_repository.dir/all: src/supplier/CMakeFiles/supplier.dir/all
+	$(MAKE) $(MAKESILENT) -f src/supplier_repository/CMakeFiles/supplier_repository.dir/build.make src/supplier_repository/CMakeFiles/supplier_repository.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/supplier_repository/CMakeFiles/supplier_repository.dir/build.make src/supplier_repository/CMakeFiles/supplier_repository.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=19,20 "Built target supplier_repository"
+.PHONY : src/supplier_repository/CMakeFiles/supplier_repository.dir/all
+
+# Build rule for subdir invocation for target.
+src/supplier_repository/CMakeFiles/supplier_repository.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/supplier_repository/CMakeFiles/supplier_repository.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 0
+.PHONY : src/supplier_repository/CMakeFiles/supplier_repository.dir/rule
+
+# Convenience name for target.
+supplier_repository: src/supplier_repository/CMakeFiles/supplier_repository.dir/rule
+.PHONY : supplier_repository
+
+# clean rule for target.
+src/supplier_repository/CMakeFiles/supplier_repository.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/supplier_repository/CMakeFiles/supplier_repository.dir/build.make src/supplier_repository/CMakeFiles/supplier_repository.dir/clean
+.PHONY : src/supplier_repository/CMakeFiles/supplier_repository.dir/clean
+
+#=============================================================================
+# Target rules for target src/menu/CMakeFiles/menu.dir
+
+# All Build rule for target.
+src/menu/CMakeFiles/menu.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/menu/CMakeFiles/menu.dir/build.make src/menu/CMakeFiles/menu.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/menu/CMakeFiles/menu.dir/build.make src/menu/CMakeFiles/menu.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=15,16 "Built target menu"
+.PHONY : src/menu/CMakeFiles/menu.dir/all
+
+# Build rule for subdir invocation for target.
+src/menu/CMakeFiles/menu.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/menu/CMakeFiles/menu.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles 0
+.PHONY : src/menu/CMakeFiles/menu.dir/rule
+
+# Convenience name for target.
+menu: src/menu/CMakeFiles/menu.dir/rule
+.PHONY : menu
+
+# clean rule for target.
+src/menu/CMakeFiles/menu.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/menu/CMakeFiles/menu.dir/build.make src/menu/CMakeFiles/menu.dir/clean
+.PHONY : src/menu/CMakeFiles/menu.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,5 +1,5 @@
-add_library(profile SHARED
-  profile.cc)
+add_library(client SHARED
+  client.cc)
 
-target_include_directories(profile PUBLIC
-              ${CMAKE_CURRENT_LIST_DIR}/../../include/profile)   
+target_include_directories(client PUBLIC
+              ${CMAKE_CURRENT_LIST_DIR}/../../include/client)   

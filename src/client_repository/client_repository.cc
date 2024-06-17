@@ -1,8 +1,9 @@
 #include "../../include/client_repository/client_repository.h"
 
-void ClientRepository::Create(const int kId, const Client& kObjectToInsert) {
+void ClientRepository::Create(const std::string& kName, const std::string& kDni) {
   try {
-    my_clients_.emplace(kId, kObjectToInsert);
+    Client new_client(kName, kDni);
+    my_clients_.emplace(new_client.GetId(), new_client);
   } catch (const std::exception& e) {
     std::cerr << "Error: " << e.what() << std::endl;
   }

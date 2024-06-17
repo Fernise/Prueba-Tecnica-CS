@@ -130,30 +130,154 @@ Common_Solutions/fast:
 .PHONY : Common_Solutions/fast
 
 #=============================================================================
-# Target rules for targets named profile
+# Target rules for targets named business
 
 # Build rule for target.
-profile: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 profile
-.PHONY : profile
+business: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 business
+.PHONY : business
 
 # fast build rule for target.
-profile/fast:
-	$(MAKE) $(MAKESILENT) -f src/profile/CMakeFiles/profile.dir/build.make src/profile/CMakeFiles/profile.dir/build
-.PHONY : profile/fast
+business/fast:
+	$(MAKE) $(MAKESILENT) -f src/business/CMakeFiles/business.dir/build.make src/business/CMakeFiles/business.dir/build
+.PHONY : business/fast
 
 #=============================================================================
-# Target rules for targets named profile_collection
+# Target rules for targets named client
 
 # Build rule for target.
-profile_collection: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 profile_collection
-.PHONY : profile_collection
+client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client
+.PHONY : client
 
 # fast build rule for target.
-profile_collection/fast:
-	$(MAKE) $(MAKESILENT) -f src/profile_collection/CMakeFiles/profile_collection.dir/build.make src/profile_collection/CMakeFiles/profile_collection.dir/build
-.PHONY : profile_collection/fast
+client/fast:
+	$(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client.dir/build.make src/client/CMakeFiles/client.dir/build
+.PHONY : client/fast
+
+#=============================================================================
+# Target rules for targets named client_repository
+
+# Build rule for target.
+client_repository: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client_repository
+.PHONY : client_repository
+
+# fast build rule for target.
+client_repository/fast:
+	$(MAKE) $(MAKESILENT) -f src/client_repository/CMakeFiles/client_repository.dir/build.make src/client_repository/CMakeFiles/client_repository.dir/build
+.PHONY : client_repository/fast
+
+#=============================================================================
+# Target rules for targets named supplier
+
+# Build rule for target.
+supplier: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 supplier
+.PHONY : supplier
+
+# fast build rule for target.
+supplier/fast:
+	$(MAKE) $(MAKESILENT) -f src/supplier/CMakeFiles/supplier.dir/build.make src/supplier/CMakeFiles/supplier.dir/build
+.PHONY : supplier/fast
+
+#=============================================================================
+# Target rules for targets named supplier_repository
+
+# Build rule for target.
+supplier_repository: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 supplier_repository
+.PHONY : supplier_repository
+
+# fast build rule for target.
+supplier_repository/fast:
+	$(MAKE) $(MAKESILENT) -f src/supplier_repository/CMakeFiles/supplier_repository.dir/build.make src/supplier_repository/CMakeFiles/supplier_repository.dir/build
+.PHONY : supplier_repository/fast
+
+#=============================================================================
+# Target rules for targets named menu
+
+# Build rule for target.
+menu: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 menu
+.PHONY : menu
+
+# fast build rule for target.
+menu/fast:
+	$(MAKE) $(MAKESILENT) -f src/menu/CMakeFiles/menu.dir/build.make src/menu/CMakeFiles/menu.dir/build
+.PHONY : menu/fast
+
+src/business/business.obj: src/business/business.cc.obj
+.PHONY : src/business/business.obj
+
+# target to build an object file
+src/business/business.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj
+.PHONY : src/business/business.cc.obj
+
+src/business/business.i: src/business/business.cc.i
+.PHONY : src/business/business.i
+
+# target to preprocess a source file
+src/business/business.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/business/business.cc.i
+.PHONY : src/business/business.cc.i
+
+src/business/business.s: src/business/business.cc.s
+.PHONY : src/business/business.s
+
+# target to generate assembly for a file
+src/business/business.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/business/business.cc.s
+.PHONY : src/business/business.cc.s
+
+src/client/client.obj: src/client/client.cc.obj
+.PHONY : src/client/client.obj
+
+# target to build an object file
+src/client/client.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj
+.PHONY : src/client/client.cc.obj
+
+src/client/client.i: src/client/client.cc.i
+.PHONY : src/client/client.i
+
+# target to preprocess a source file
+src/client/client.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/client/client.cc.i
+.PHONY : src/client/client.cc.i
+
+src/client/client.s: src/client/client.cc.s
+.PHONY : src/client/client.s
+
+# target to generate assembly for a file
+src/client/client.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/client/client.cc.s
+.PHONY : src/client/client.cc.s
+
+src/client_repository/client_repository.obj: src/client_repository/client_repository.cc.obj
+.PHONY : src/client_repository/client_repository.obj
+
+# target to build an object file
+src/client_repository/client_repository.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj
+.PHONY : src/client_repository/client_repository.cc.obj
+
+src/client_repository/client_repository.i: src/client_repository/client_repository.cc.i
+.PHONY : src/client_repository/client_repository.i
+
+# target to preprocess a source file
+src/client_repository/client_repository.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.i
+.PHONY : src/client_repository/client_repository.cc.i
+
+src/client_repository/client_repository.s: src/client_repository/client_repository.cc.s
+.PHONY : src/client_repository/client_repository.s
+
+# target to generate assembly for a file
+src/client_repository/client_repository.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.s
+.PHONY : src/client_repository/client_repository.cc.s
 
 src/main/main.obj: src/main/main.cc.obj
 .PHONY : src/main/main.obj
@@ -179,53 +303,77 @@ src/main/main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/main/main.cc.s
 .PHONY : src/main/main.cc.s
 
-src/profile/profile.obj: src/profile/profile.cc.obj
-.PHONY : src/profile/profile.obj
+src/menu/menu.obj: src/menu/menu.cc.obj
+.PHONY : src/menu/menu.obj
 
 # target to build an object file
-src/profile/profile.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj
-.PHONY : src/profile/profile.cc.obj
+src/menu/menu.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj
+.PHONY : src/menu/menu.cc.obj
 
-src/profile/profile.i: src/profile/profile.cc.i
-.PHONY : src/profile/profile.i
+src/menu/menu.i: src/menu/menu.cc.i
+.PHONY : src/menu/menu.i
 
 # target to preprocess a source file
-src/profile/profile.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.i
-.PHONY : src/profile/profile.cc.i
+src/menu/menu.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.i
+.PHONY : src/menu/menu.cc.i
 
-src/profile/profile.s: src/profile/profile.cc.s
-.PHONY : src/profile/profile.s
+src/menu/menu.s: src/menu/menu.cc.s
+.PHONY : src/menu/menu.s
 
 # target to generate assembly for a file
-src/profile/profile.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.s
-.PHONY : src/profile/profile.cc.s
+src/menu/menu.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.s
+.PHONY : src/menu/menu.cc.s
 
-src/profile_collection/profile_collection.obj: src/profile_collection/profile_collection.cc.obj
-.PHONY : src/profile_collection/profile_collection.obj
+src/supplier/supplier.obj: src/supplier/supplier.cc.obj
+.PHONY : src/supplier/supplier.obj
 
 # target to build an object file
-src/profile_collection/profile_collection.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj
-.PHONY : src/profile_collection/profile_collection.cc.obj
+src/supplier/supplier.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj
+.PHONY : src/supplier/supplier.cc.obj
 
-src/profile_collection/profile_collection.i: src/profile_collection/profile_collection.cc.i
-.PHONY : src/profile_collection/profile_collection.i
+src/supplier/supplier.i: src/supplier/supplier.cc.i
+.PHONY : src/supplier/supplier.i
 
 # target to preprocess a source file
-src/profile_collection/profile_collection.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.i
-.PHONY : src/profile_collection/profile_collection.cc.i
+src/supplier/supplier.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.i
+.PHONY : src/supplier/supplier.cc.i
 
-src/profile_collection/profile_collection.s: src/profile_collection/profile_collection.cc.s
-.PHONY : src/profile_collection/profile_collection.s
+src/supplier/supplier.s: src/supplier/supplier.cc.s
+.PHONY : src/supplier/supplier.s
 
 # target to generate assembly for a file
-src/profile_collection/profile_collection.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.s
-.PHONY : src/profile_collection/profile_collection.cc.s
+src/supplier/supplier.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.s
+.PHONY : src/supplier/supplier.cc.s
+
+src/supplier_repository/supplier_repository.obj: src/supplier_repository/supplier_repository.cc.obj
+.PHONY : src/supplier_repository/supplier_repository.obj
+
+# target to build an object file
+src/supplier_repository/supplier_repository.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj
+.PHONY : src/supplier_repository/supplier_repository.cc.obj
+
+src/supplier_repository/supplier_repository.i: src/supplier_repository/supplier_repository.cc.i
+.PHONY : src/supplier_repository/supplier_repository.i
+
+# target to preprocess a source file
+src/supplier_repository/supplier_repository.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.i
+.PHONY : src/supplier_repository/supplier_repository.cc.i
+
+src/supplier_repository/supplier_repository.s: src/supplier_repository/supplier_repository.cc.s
+.PHONY : src/supplier_repository/supplier_repository.s
+
+# target to generate assembly for a file
+src/supplier_repository/supplier_repository.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Common_Solutions.dir/build.make CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.s
+.PHONY : src/supplier_repository/supplier_repository.cc.s
 
 # Help Target
 help:
@@ -236,17 +384,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Common_Solutions"
-	@echo "... profile"
-	@echo "... profile_collection"
+	@echo "... business"
+	@echo "... client"
+	@echo "... client_repository"
+	@echo "... menu"
+	@echo "... supplier"
+	@echo "... supplier_repository"
+	@echo "... src/business/business.obj"
+	@echo "... src/business/business.i"
+	@echo "... src/business/business.s"
+	@echo "... src/client/client.obj"
+	@echo "... src/client/client.i"
+	@echo "... src/client/client.s"
+	@echo "... src/client_repository/client_repository.obj"
+	@echo "... src/client_repository/client_repository.i"
+	@echo "... src/client_repository/client_repository.s"
 	@echo "... src/main/main.obj"
 	@echo "... src/main/main.i"
 	@echo "... src/main/main.s"
-	@echo "... src/profile/profile.obj"
-	@echo "... src/profile/profile.i"
-	@echo "... src/profile/profile.s"
-	@echo "... src/profile_collection/profile_collection.obj"
-	@echo "... src/profile_collection/profile_collection.i"
-	@echo "... src/profile_collection/profile_collection.s"
+	@echo "... src/menu/menu.obj"
+	@echo "... src/menu/menu.i"
+	@echo "... src/menu/menu.s"
+	@echo "... src/supplier/supplier.obj"
+	@echo "... src/supplier/supplier.i"
+	@echo "... src/supplier/supplier.s"
+	@echo "... src/supplier_repository/supplier_repository.obj"
+	@echo "... src/supplier_repository/supplier_repository.i"
+	@echo "... src/supplier_repository/supplier_repository.s"
 .PHONY : help
 
 

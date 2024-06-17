@@ -137,17 +137,22 @@ CMakeFiles/Common_Solutions.dir/src/main/main.cc.obj: \
  C:/msys64/mingw64/include/c++/13.2.0/istream \
  C:/msys64/mingw64/include/c++/13.2.0/bits/istream.tcc \
  C:/msys64/mingw64/include/c++/13.2.0/ctime \
- C:/Users/Fernando/Documents/Common_Solutions/include/profile/profile.h \
- C:/Users/Fernando/Documents/Common_Solutions/include/profile_collection/profile_collection.h \
+ C:/Users/Fernando/Documents/Common_Solutions/include/business/business.h \
+ C:/Users/Fernando/Documents/Common_Solutions/include/client_repository/client_repository.h \
+ C:/msys64/mingw64/include/c++/13.2.0/optional \
+ C:/msys64/mingw64/include/c++/13.2.0/bits/enable_special_members.h \
+ C:/Users/Fernando/Documents/Common_Solutions/include/client/client.h \
+ C:/Users/Fernando/Documents/Common_Solutions/include/crud_interface/crud_interface.h \
  C:/msys64/mingw64/include/c++/13.2.0/unordered_map \
  C:/msys64/mingw64/include/c++/13.2.0/bits/unordered_map.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/hashtable.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/hashtable_policy.h \
  C:/msys64/mingw64/include/c++/13.2.0/ext/aligned_buffer.h \
- C:/msys64/mingw64/include/c++/13.2.0/bits/enable_special_members.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/node_handle.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/erase_if.h \
- C:/msys64/mingw64/include/c++/13.2.0/utility \
- C:/msys64/mingw64/include/c++/13.2.0/bits/stl_relops.h \
- C:/msys64/mingw64/include/c++/13.2.0/optional \
- C:/Users/Fernando/Documents/Common_Solutions/include/profile/profile.h
+ C:/Users/Fernando/Documents/Common_Solutions/include/supplier_repository/supplier_repository.h \
+ C:/Users/Fernando/Documents/Common_Solutions/include/supplier/supplier.h \
+ C:/Users/Fernando/Documents/Common_Solutions/include/crud_interface/crud_interface.h \
+ C:/Users/Fernando/Documents/Common_Solutions/include/crud_interface/crud_interface.h \
+ C:/Users/Fernando/Documents/Common_Solutions/include/crud_interface/crud_interface.h \
+ C:/Users/Fernando/Documents/Common_Solutions/include/menu/menu.h

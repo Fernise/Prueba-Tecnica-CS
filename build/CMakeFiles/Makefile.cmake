@@ -34,8 +34,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.29.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.5/CMakeRCCompiler.cmake"
   "CMakeFiles/3.29.5/CMakeSystem.cmake"
-  "C:/Users/Fernando/Documents/Common_Solutions/src/profile/CMakeLists.txt"
-  "C:/Users/Fernando/Documents/Common_Solutions/src/profile_collection/CMakeLists.txt"
+  "C:/Users/Fernando/Documents/Common_Solutions/src/business/CMakeLists.txt"
+  "C:/Users/Fernando/Documents/Common_Solutions/src/client/CMakeLists.txt"
+  "C:/Users/Fernando/Documents/Common_Solutions/src/client_repository/CMakeLists.txt"
+  "C:/Users/Fernando/Documents/Common_Solutions/src/menu/CMakeLists.txt"
+  "C:/Users/Fernando/Documents/Common_Solutions/src/supplier/CMakeLists.txt"
+  "C:/Users/Fernando/Documents/Common_Solutions/src/supplier_repository/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -47,13 +51,21 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/profile/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/profile_collection/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/business/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/client/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/client_repository/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/supplier/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/supplier_repository/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/menu/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Common_Solutions.dir/DependInfo.cmake"
-  "src/profile/CMakeFiles/profile.dir/DependInfo.cmake"
-  "src/profile_collection/CMakeFiles/profile_collection.dir/DependInfo.cmake"
+  "src/business/CMakeFiles/business.dir/DependInfo.cmake"
+  "src/client/CMakeFiles/client.dir/DependInfo.cmake"
+  "src/client_repository/CMakeFiles/client_repository.dir/DependInfo.cmake"
+  "src/supplier/CMakeFiles/supplier.dir/DependInfo.cmake"
+  "src/supplier_repository/CMakeFiles/supplier_repository.dir/DependInfo.cmake"
+  "src/menu/CMakeFiles/menu.dir/DependInfo.cmake"
   )

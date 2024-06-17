@@ -39,12 +39,32 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Fernando/Documents/Common_Solutions/build/src/profile/cmake_install.cmake")
+  include("C:/Users/Fernando/Documents/Common_Solutions/build/src/business/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Fernando/Documents/Common_Solutions/build/src/profile_collection/cmake_install.cmake")
+  include("C:/Users/Fernando/Documents/Common_Solutions/build/src/client/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Fernando/Documents/Common_Solutions/build/src/client_repository/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Fernando/Documents/Common_Solutions/build/src/supplier/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Fernando/Documents/Common_Solutions/build/src/supplier_repository/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Fernando/Documents/Common_Solutions/build/src/menu/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

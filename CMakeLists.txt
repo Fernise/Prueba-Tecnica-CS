@@ -5,11 +5,20 @@ set(CMAKE_CXX_COMPILER "g++")
 
 project(Common_Solutions)
 
-add_subdirectory(src/profile)
-add_subdirectory(src/profile_collection)
+add_subdirectory(src/business)
+add_subdirectory(src/client)
+add_subdirectory(src/client_repository)
+add_subdirectory(src/supplier)
+add_subdirectory(src/supplier_repository)
+add_subdirectory(src/menu)
 
-add_executable(${PROJECT_NAME} src/main/main.cc src/profile/profile.cc src/profile_collection/profile_collection.cc)
+add_executable(${PROJECT_NAME} src/main/main.cc src/client/client.cc src/client_repository/client_repository.cc src/supplier/supplier.cc 
+                                src/supplier_repository/supplier_repository.cc src/business/business.cc src/menu/menu.cc)
 
 target_link_libraries(${PROJECT_NAME}
-                      profile
-                      profile_collection)  
+                      client
+                      client_repository
+                      supplier
+                      supplier_repository
+                      business
+                      menu)

@@ -5,9 +5,10 @@
  * @param kId The std::ostream object
  * @param kMySupplier The new supplier to insert in the repository
  */
-void SupplierRepository::Create(const int kId, const Supplier& kMySupplier) {
+void SupplierRepository::Create(const std::string& kName, const std::string& kCif) {
   try {
-    my_suppliers_.emplace(kId, kMySupplier);
+    Supplier new_supplier(kName, kCif);
+    my_suppliers_.emplace(new_supplier.GetId(), new_supplier);
   } catch (const std::exception& e) {
     std::cerr << "Error: " << e.what() << std::endl;
   }

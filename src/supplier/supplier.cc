@@ -2,7 +2,6 @@
 #include <tuple>
 
 #include "../../include/supplier/supplier.h"
-
 /**
  * @brief Supplier constructor
  * @param kName The supplier name

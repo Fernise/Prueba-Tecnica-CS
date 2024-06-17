@@ -84,54 +84,126 @@ CMakeFiles/Common_Solutions.dir/src/main/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Common_Solutions.dir/src/main/main.cc.s"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Fernando/Documents/Common_Solutions/src/main/main.cc -o CMakeFiles/Common_Solutions.dir/src/main/main.cc.s
 
-CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj: CMakeFiles/Common_Solutions.dir/flags.make
-CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj: CMakeFiles/Common_Solutions.dir/includes_CXX.rsp
-CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj: C:/Users/Fernando/Documents/Common_Solutions/src/profile/profile.cc
-CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj: CMakeFiles/Common_Solutions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj -MF CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj.d -o CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/profile/profile.cc
+CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj: CMakeFiles/Common_Solutions.dir/flags.make
+CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj: CMakeFiles/Common_Solutions.dir/includes_CXX.rsp
+CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj: C:/Users/Fernando/Documents/Common_Solutions/src/client/client.cc
+CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj: CMakeFiles/Common_Solutions.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj -MF CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj.d -o CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/client/client.cc
 
-CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.i"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Fernando/Documents/Common_Solutions/src/profile/profile.cc > CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.i
+CMakeFiles/Common_Solutions.dir/src/client/client.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Common_Solutions.dir/src/client/client.cc.i"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Fernando/Documents/Common_Solutions/src/client/client.cc > CMakeFiles/Common_Solutions.dir/src/client/client.cc.i
 
-CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.s"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Fernando/Documents/Common_Solutions/src/profile/profile.cc -o CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.s
+CMakeFiles/Common_Solutions.dir/src/client/client.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Common_Solutions.dir/src/client/client.cc.s"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Fernando/Documents/Common_Solutions/src/client/client.cc -o CMakeFiles/Common_Solutions.dir/src/client/client.cc.s
 
-CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj: CMakeFiles/Common_Solutions.dir/flags.make
-CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj: CMakeFiles/Common_Solutions.dir/includes_CXX.rsp
-CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj: C:/Users/Fernando/Documents/Common_Solutions/src/profile_collection/profile_collection.cc
-CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj: CMakeFiles/Common_Solutions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj -MF CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj.d -o CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/profile_collection/profile_collection.cc
+CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj: CMakeFiles/Common_Solutions.dir/flags.make
+CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj: CMakeFiles/Common_Solutions.dir/includes_CXX.rsp
+CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj: C:/Users/Fernando/Documents/Common_Solutions/src/client_repository/client_repository.cc
+CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj: CMakeFiles/Common_Solutions.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj -MF CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj.d -o CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/client_repository/client_repository.cc
 
-CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.i"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Fernando/Documents/Common_Solutions/src/profile_collection/profile_collection.cc > CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.i
+CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.i"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Fernando/Documents/Common_Solutions/src/client_repository/client_repository.cc > CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.i
 
-CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.s"
-	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Fernando/Documents/Common_Solutions/src/profile_collection/profile_collection.cc -o CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.s
+CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.s"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Fernando/Documents/Common_Solutions/src/client_repository/client_repository.cc -o CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.s
+
+CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj: CMakeFiles/Common_Solutions.dir/flags.make
+CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj: CMakeFiles/Common_Solutions.dir/includes_CXX.rsp
+CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj: C:/Users/Fernando/Documents/Common_Solutions/src/supplier/supplier.cc
+CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj: CMakeFiles/Common_Solutions.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj -MF CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj.d -o CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/supplier/supplier.cc
+
+CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.i"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Fernando/Documents/Common_Solutions/src/supplier/supplier.cc > CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.i
+
+CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.s"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Fernando/Documents/Common_Solutions/src/supplier/supplier.cc -o CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.s
+
+CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj: CMakeFiles/Common_Solutions.dir/flags.make
+CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj: CMakeFiles/Common_Solutions.dir/includes_CXX.rsp
+CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj: C:/Users/Fernando/Documents/Common_Solutions/src/supplier_repository/supplier_repository.cc
+CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj: CMakeFiles/Common_Solutions.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj -MF CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj.d -o CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/supplier_repository/supplier_repository.cc
+
+CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.i"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Fernando/Documents/Common_Solutions/src/supplier_repository/supplier_repository.cc > CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.i
+
+CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.s"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Fernando/Documents/Common_Solutions/src/supplier_repository/supplier_repository.cc -o CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.s
+
+CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj: CMakeFiles/Common_Solutions.dir/flags.make
+CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj: CMakeFiles/Common_Solutions.dir/includes_CXX.rsp
+CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj: C:/Users/Fernando/Documents/Common_Solutions/src/business/business.cc
+CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj: CMakeFiles/Common_Solutions.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj -MF CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj.d -o CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/business/business.cc
+
+CMakeFiles/Common_Solutions.dir/src/business/business.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Common_Solutions.dir/src/business/business.cc.i"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Fernando/Documents/Common_Solutions/src/business/business.cc > CMakeFiles/Common_Solutions.dir/src/business/business.cc.i
+
+CMakeFiles/Common_Solutions.dir/src/business/business.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Common_Solutions.dir/src/business/business.cc.s"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Fernando/Documents/Common_Solutions/src/business/business.cc -o CMakeFiles/Common_Solutions.dir/src/business/business.cc.s
+
+CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj: CMakeFiles/Common_Solutions.dir/flags.make
+CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj: CMakeFiles/Common_Solutions.dir/includes_CXX.rsp
+CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj: C:/Users/Fernando/Documents/Common_Solutions/src/menu/menu.cc
+CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj: CMakeFiles/Common_Solutions.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj -MF CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj.d -o CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/menu/menu.cc
+
+CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.i"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Fernando/Documents/Common_Solutions/src/menu/menu.cc > CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.i
+
+CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.s"
+	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Fernando/Documents/Common_Solutions/src/menu/menu.cc -o CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.s
 
 # Object files for target Common_Solutions
 Common_Solutions_OBJECTS = \
 "CMakeFiles/Common_Solutions.dir/src/main/main.cc.obj" \
-"CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj" \
-"CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj"
+"CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj" \
+"CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj" \
+"CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj" \
+"CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj" \
+"CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj" \
+"CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj"
 
 # External object files for target Common_Solutions
 Common_Solutions_EXTERNAL_OBJECTS =
 
 Common_Solutions.exe: CMakeFiles/Common_Solutions.dir/src/main/main.cc.obj
-Common_Solutions.exe: CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj
-Common_Solutions.exe: CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj
+Common_Solutions.exe: CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj
+Common_Solutions.exe: CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj
+Common_Solutions.exe: CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj
+Common_Solutions.exe: CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj
+Common_Solutions.exe: CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj
+Common_Solutions.exe: CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj
 Common_Solutions.exe: CMakeFiles/Common_Solutions.dir/build.make
-Common_Solutions.exe: src/profile_collection/libprofile_collection.dll.a
-Common_Solutions.exe: src/profile/libprofile.dll.a
+Common_Solutions.exe: src/business/libbusiness.dll.a
+Common_Solutions.exe: src/menu/libmenu.dll.a
+Common_Solutions.exe: src/client_repository/libclient_repository.dll.a
+Common_Solutions.exe: src/client/libclient.dll.a
+Common_Solutions.exe: src/supplier_repository/libsupplier_repository.dll.a
+Common_Solutions.exe: src/supplier/libsupplier.dll.a
 Common_Solutions.exe: CMakeFiles/Common_Solutions.dir/linkLibs.rsp
 Common_Solutions.exe: CMakeFiles/Common_Solutions.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Common_Solutions.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Fernando/Documents/Common_Solutions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Common_Solutions.exe"
 	C:/Python310/Lib/site-packages/cmake/data/bin/cmake.exe -E rm -f CMakeFiles/Common_Solutions.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/Common_Solutions.dir/objects.a @CMakeFiles/Common_Solutions.dir/objects1.rsp
 	C:/msys64/mingw64/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/Common_Solutions.dir/objects.a -Wl,--no-whole-archive -o Common_Solutions.exe -Wl,--out-implib,libCommon_Solutions.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/Common_Solutions.dir/linkLibs.rsp

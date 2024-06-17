@@ -8,9 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Fernando/Documents/Common_Solutions/src/business/business.cc" "CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj" "gcc" "CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj.d"
+  "C:/Users/Fernando/Documents/Common_Solutions/src/client/client.cc" "CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj" "gcc" "CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj.d"
+  "C:/Users/Fernando/Documents/Common_Solutions/src/client_repository/client_repository.cc" "CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj" "gcc" "CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj.d"
   "C:/Users/Fernando/Documents/Common_Solutions/src/main/main.cc" "CMakeFiles/Common_Solutions.dir/src/main/main.cc.obj" "gcc" "CMakeFiles/Common_Solutions.dir/src/main/main.cc.obj.d"
-  "C:/Users/Fernando/Documents/Common_Solutions/src/profile/profile.cc" "CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj" "gcc" "CMakeFiles/Common_Solutions.dir/src/profile/profile.cc.obj.d"
-  "C:/Users/Fernando/Documents/Common_Solutions/src/profile_collection/profile_collection.cc" "CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj" "gcc" "CMakeFiles/Common_Solutions.dir/src/profile_collection/profile_collection.cc.obj.d"
+  "C:/Users/Fernando/Documents/Common_Solutions/src/menu/menu.cc" "CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj" "gcc" "CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj.d"
+  "C:/Users/Fernando/Documents/Common_Solutions/src/supplier/supplier.cc" "CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj" "gcc" "CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj.d"
+  "C:/Users/Fernando/Documents/Common_Solutions/src/supplier_repository/supplier_repository.cc" "CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj" "gcc" "CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

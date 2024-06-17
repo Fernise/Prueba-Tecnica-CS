@@ -1,0 +1,1 @@
+ ../client_repository/libclient_repository.dll.a ../supplier_repository/libsupplier_repository.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
