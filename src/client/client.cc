@@ -16,7 +16,7 @@ Client::Client(const std::string& kName, const std::string& kDni) : name_(kName)
 
 
 std::ostream& operator<<(std::ostream& os, const Client& kMyClient) {
-  os << "Name: " << kMyClient.GetName() << "\nDni: " << kMyClient.GetDniOrCif() << "\nID: " << kMyClient.GetId() << "\n";
+  os << "Name: " << kMyClient.name_ << "\nDni: " << kMyClient.dni_ << "\nID: " << kMyClient.id_ << "\n";
 
   return os;
 }

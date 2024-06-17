@@ -1,13 +1,23 @@
 #include "../../include/supplier_repository/supplier_repository.h"
 
-void SupplierRepository::Create(const int kId, const Supplier& kObjectToInsert) {
+/**
+ * @brief Creates a new supplier in the repository
+ * @param kId The std::ostream object
+ * @param kMySupplier The new supplier to insert in the repository
+ */
+void SupplierRepository::Create(const int kId, const Supplier& kMySupplier) {
   try {
-    my_suppliers_.emplace(kId, kObjectToInsert);
+    my_suppliers_.emplace(kId, kMySupplier);
   } catch (const std::exception& e) {
     std::cerr << "Error: " << e.what() << std::endl;
   }
 }
 
+/**
+ * @brief Reads a supplier found by its id
+ * @param kId The supplier id
+ * @return std::optional<T> If an id is found, return the supplier associated, otherwise, a null value
+ */
 std::optional<Supplier> SupplierRepository::Read(const int kId) const {
   try { 
     return my_suppliers_.at(kId);
@@ -17,6 +27,11 @@ std::optional<Supplier> SupplierRepository::Read(const int kId) const {
   }
 }
 
+/**
+ * @brief Updates the supplier information
+ * @param kMode The working mode (only update the name, cif or both)
+ * @param kMySupplierInfo The supplier information candidate to be updated
+ */
 void SupplierRepository::Update(const int kMode, const std::tuple<std::string, std::string, int>& kSupplierInfo) {
   const auto [kName, kDni, kId] = kSupplierInfo;
   try {
@@ -43,6 +58,10 @@ void SupplierRepository::Update(const int kMode, const std::tuple<std::string, s
   }   
 }
 
+/**
+ * @brief Deletes a supplier from the repository
+ * @param kId The id of the supplier
+ */
 void SupplierRepository::Delete(const int kId) {
   try {
     Read(kId);
