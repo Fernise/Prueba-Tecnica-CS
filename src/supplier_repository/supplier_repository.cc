@@ -5,9 +5,8 @@
  * @param kId The std::ostream object
  * @param kMySupplier The new supplier to insert in the repository
  */
-void SupplierRepository::Create(const std::string& kName, const std::string& kCif) {
+void SupplierRepository::Create(const Supplier& new_supplier) {
   try {
-    Supplier new_supplier(kName, kCif);
     my_suppliers_.emplace(new_supplier.GetId(), new_supplier);
   } catch (const std::exception& e) {
     std::cerr << "Error: " << e.what() << std::endl;
@@ -70,4 +69,12 @@ void SupplierRepository::Delete(const int kId) {
   } catch (const std::out_of_range& e) {
     std::cout << "\nError: The Supplier has not been found\n";
   } 
+}
+
+std::ostream& operator<<(std::ostream& os, const SupplierRepository& kMySupplierRepository) {
+  for (const auto& kSupplier : kMySupplierRepository.my_suppliers_) {
+    os << kSupplier.second << "\n";
+  }
+
+  return os;
 }

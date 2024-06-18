@@ -10,10 +10,12 @@
 
 class ClientRepository : public CRUDInterface<Client> {
  public:
-  void Create(const std::string& kName, const std::string& kDni) override;
+  void Create(const Client&) override;
   std::optional<Client> Read(const int) const override;
   void Update(const int, const std::tuple<std::string, std::string, int>&) override;
   void Delete(const int) override;
+  friend std::ostream& operator<<(std::ostream&, const ClientRepository&);
+
  private:
   std::unordered_map<int, Client> my_clients_;
 };

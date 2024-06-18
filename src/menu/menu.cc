@@ -50,7 +50,7 @@ int Menu::HandleClientMenuUserInput(const int kOption) const {
 int Menu::HandleClientMenuUserInput(const int kOption) const {
   switch (kOption) {
     case 1:
-      
+      ShowClientMenu;
       break;
     case 2:
       ShowSupplierMenu();

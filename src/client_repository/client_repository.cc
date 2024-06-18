@@ -1,8 +1,7 @@
 #include "../../include/client_repository/client_repository.h"
 
-void ClientRepository::Create(const std::string& kName, const std::string& kDni) {
+void ClientRepository::Create(const Client& new_client) {
   try {
-    Client new_client(kName, kDni);
     my_clients_.emplace(new_client.GetId(), new_client);
   } catch (const std::exception& e) {
     std::cerr << "Error: " << e.what() << std::endl;
@@ -51,4 +50,12 @@ void ClientRepository::Delete(const int kId) {
   } catch (const std::out_of_range& e) {
     std::cout << "\nError: The Supplier has not been found\n";
   } 
+}
+
+std::ostream& operator<<(std::ostream& os, const ClientRepository& kMyClientRepository) {
+  for (const auto& kClient : kMyClientRepository.my_clients_) {
+    os << kClient.second << "\n";
+  }
+
+  return os;
 }

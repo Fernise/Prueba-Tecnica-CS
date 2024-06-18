@@ -10,10 +10,11 @@
 
 class SupplierRepository : public CRUDInterface<Supplier> {
  public:
-  void Create(const std::string& kName, const std::string& kCif) override;
+  void Create(const Supplier&) override;
   std::optional<Supplier> Read(const int) const override;
   void Update(const int, const std::tuple<std::string, std::string, int>&) override;
   void Delete(const int) override;
+  friend std::ostream& operator<<(std::ostream&, const SupplierRepository&);
  private:
   std::unordered_map<int, Supplier> my_suppliers_;
 };

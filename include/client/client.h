@@ -8,10 +8,12 @@
 class Client {
  public:  
   Client(const std::string& kName, const std::string& kDni);
+  std::string GetName() const { return name_; }
+  std::string GetDni() const { return dni_; }
+  int GetId() const { return id_; }
   void SetName(const std::string& kName) { name_ = kName; }
   void SetDni(const std::string& kDni) { dni_ = kDni; } 
   void SetId(const int kId) { id_ = kId; }  
-  int GetId() const { return id_; }
   friend std::ostream& operator<<(std::ostream&, const Client&);
  private:
   std::string name_ = "";
