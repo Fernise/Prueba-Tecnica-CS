@@ -12,8 +12,9 @@ class Business {
   Business() = default;
   ClientRepository GetMyClients() { return my_clients_; }
   SupplierRepository GetMySuppliers() { return my_suppliers_; }
-  void WriteMyClients();
-  void WriteMySuppliers();
+  // void WriteMyClients();
+  // void WriteMySuppliers();
+  friend std::ostream& operator<<(std::ostream&, const Business&);
  private:
   ClientRepository my_clients_;
   SupplierRepository my_suppliers_;

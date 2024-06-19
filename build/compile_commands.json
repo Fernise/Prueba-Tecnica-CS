@@ -1,0 +1,92 @@
+[
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Common_Solutions.dir/includes_CXX.rsp -g -o CMakeFiles/Common_Solutions.dir/src/main/main.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/main/main.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/main/main.cc",
+  "output": "CMakeFiles/Common_Solutions.dir/src/main/main.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Common_Solutions.dir/includes_CXX.rsp -g -o CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/client/client.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/client/client.cc",
+  "output": "CMakeFiles/Common_Solutions.dir/src/client/client.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Common_Solutions.dir/includes_CXX.rsp -g -o CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/client_repository/client_repository.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/client_repository/client_repository.cc",
+  "output": "CMakeFiles/Common_Solutions.dir/src/client_repository/client_repository.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Common_Solutions.dir/includes_CXX.rsp -g -o CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/supplier/supplier.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/supplier/supplier.cc",
+  "output": "CMakeFiles/Common_Solutions.dir/src/supplier/supplier.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Common_Solutions.dir/includes_CXX.rsp -g -o CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/supplier_repository/supplier_repository.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/supplier_repository/supplier_repository.cc",
+  "output": "CMakeFiles/Common_Solutions.dir/src/supplier_repository/supplier_repository.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Common_Solutions.dir/includes_CXX.rsp -g -o CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/business/business.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/business/business.cc",
+  "output": "CMakeFiles/Common_Solutions.dir/src/business/business.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Common_Solutions.dir/includes_CXX.rsp -g -o CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/menu/menu.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/menu/menu.cc",
+  "output": "CMakeFiles/Common_Solutions.dir/src/menu/menu.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/Common_Solutions.dir/includes_CXX.rsp -g -o CMakeFiles/Common_Solutions.dir/src/utility/utility.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/utility/utility.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/utility/utility.cc",
+  "output": "CMakeFiles/Common_Solutions.dir/src/utility/utility.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build/src/business",
+  "command": "C:/msys64/mingw64/bin/g++.exe -Dbusiness_EXPORTS @CMakeFiles/business.dir/includes_CXX.rsp -g -o CMakeFiles/business.dir/business.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/business/business.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/business/business.cc",
+  "output": "src/business/CMakeFiles/business.dir/business.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build/src/client",
+  "command": "C:/msys64/mingw64/bin/g++.exe -Dclient_EXPORTS @CMakeFiles/client.dir/includes_CXX.rsp -g -o CMakeFiles/client.dir/client.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/client/client.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/client/client.cc",
+  "output": "src/client/CMakeFiles/client.dir/client.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build/src/client_repository",
+  "command": "C:/msys64/mingw64/bin/g++.exe -Dclient_repository_EXPORTS @CMakeFiles/client_repository.dir/includes_CXX.rsp -g -o CMakeFiles/client_repository.dir/client_repository.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/client_repository/client_repository.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/client_repository/client_repository.cc",
+  "output": "src/client_repository/CMakeFiles/client_repository.dir/client_repository.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build/src/supplier",
+  "command": "C:/msys64/mingw64/bin/g++.exe -Dsupplier_EXPORTS @CMakeFiles/supplier.dir/includes_CXX.rsp -g -o CMakeFiles/supplier.dir/supplier.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/supplier/supplier.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/supplier/supplier.cc",
+  "output": "src/supplier/CMakeFiles/supplier.dir/supplier.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build/src/supplier_repository",
+  "command": "C:/msys64/mingw64/bin/g++.exe -Dsupplier_repository_EXPORTS @CMakeFiles/supplier_repository.dir/includes_CXX.rsp -g -o CMakeFiles/supplier_repository.dir/supplier_repository.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/supplier_repository/supplier_repository.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/supplier_repository/supplier_repository.cc",
+  "output": "src/supplier_repository/CMakeFiles/supplier_repository.dir/supplier_repository.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build/src/menu",
+  "command": "C:/msys64/mingw64/bin/g++.exe -Dmenu_EXPORTS @CMakeFiles/menu.dir/includes_CXX.rsp -g -o CMakeFiles/menu.dir/menu.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/menu/menu.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/menu/menu.cc",
+  "output": "src/menu/CMakeFiles/menu.dir/menu.cc.obj"
+},
+{
+  "directory": "C:/Users/Fernando/Documents/Common_Solutions/build/src/utility",
+  "command": "C:/msys64/mingw64/bin/g++.exe -Dutility_EXPORTS @CMakeFiles/utility.dir/includes_CXX.rsp -g -o CMakeFiles/utility.dir/utility.cc.obj -c C:/Users/Fernando/Documents/Common_Solutions/src/utility/utility.cc",
+  "file": "C:/Users/Fernando/Documents/Common_Solutions/src/utility/utility.cc",
+  "output": "src/utility/CMakeFiles/utility.dir/utility.cc.obj"
+}
+]

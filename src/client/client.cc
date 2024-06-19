@@ -9,11 +9,10 @@ Client::Client(const std::string& kName, const std::string& kDni) : name_(kName)
   auto GenerateId = [kName, kDni, kRandomValue]() -> int {
     const int kFirstLetter = 0;
     const int kDniLetter = 8;
-    return (kRandomValue / kName[kFirstLetter]) + kDni[kDniLetter];
+    return ((kRandomValue / kName[kFirstLetter]) + kDni[kDniLetter]);
   };
   SetId(GenerateId());
 }
-
 
 std::ostream& operator<<(std::ostream& os, const Client& kMyClient) {
   os << "Name: " << kMyClient.name_ << "\nDni: " << kMyClient.dni_ << "\nID: " << kMyClient.id_ << "\n";

@@ -11,9 +11,10 @@ add_subdirectory(src/client_repository)
 add_subdirectory(src/supplier)
 add_subdirectory(src/supplier_repository)
 add_subdirectory(src/menu)
+add_subdirectory(src/utility)
 
 add_executable(${PROJECT_NAME} src/main/main.cc src/client/client.cc src/client_repository/client_repository.cc src/supplier/supplier.cc 
-                                src/supplier_repository/supplier_repository.cc src/business/business.cc src/menu/menu.cc)
+                                src/supplier_repository/supplier_repository.cc src/business/business.cc src/menu/menu.cc src/utility/utility.cc)
 
 target_link_libraries(${PROJECT_NAME}
                       client
@@ -21,4 +22,5 @@ target_link_libraries(${PROJECT_NAME}
                       supplier
                       supplier_repository
                       business
-                      menu)
+                      menu
+                      utility)

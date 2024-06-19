@@ -1,0 +1,1 @@
+ src/menu/libmenu.dll.a src/utility/libutility.dll.a src/business/libbusiness.dll.a src/client_repository/libclient_repository.dll.a src/client/libclient.dll.a src/supplier_repository/libsupplier_repository.dll.a src/supplier/libsupplier.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -7,6 +7,7 @@
 
 class Client {
  public:  
+  Client() = default;
   Client(const std::string& kName, const std::string& kDni);
   std::string GetName() const { return name_; }
   std::string GetDni() const { return dni_; }

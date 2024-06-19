@@ -6,6 +6,7 @@
 
 class Supplier {
  public:
+  Supplier() = default;
   Supplier(const std::string&, const std::string&);
   std::string GetName() const { return name_; }
   std::string GetCif() const { return cif_; }

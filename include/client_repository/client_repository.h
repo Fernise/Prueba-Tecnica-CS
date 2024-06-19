@@ -15,7 +15,6 @@ class ClientRepository : public CRUDInterface<Client> {
   void Update(const int, const std::tuple<std::string, std::string, int>&) override;
   void Delete(const int) override;
   friend std::ostream& operator<<(std::ostream&, const ClientRepository&);
-
  private:
   std::unordered_map<int, Client> my_clients_;
 };

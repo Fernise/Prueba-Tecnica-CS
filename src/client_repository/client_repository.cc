@@ -10,6 +10,9 @@ void ClientRepository::Create(const Client& new_client) {
 
 std::optional<Client> ClientRepository::Read(const int kId) const {
   try { 
+    for (const auto& kClient : my_clients_) {
+      std::cout << kClient.second << "\n";
+    }
     return my_clients_.at(kId);
   } catch (const std::exception& e) {
     std::cerr << "Error: " << e.what() << std::endl;
