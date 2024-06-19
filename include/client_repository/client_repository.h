@@ -4,6 +4,7 @@
 #include <iostream>
 #include <optional>
 #include <string>
+#include <memory>
 
 #include "../client/client.h"
 #include "../crud_interface/crud_interface.h"

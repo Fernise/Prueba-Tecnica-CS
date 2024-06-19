@@ -9,10 +9,7 @@ void ClientRepository::Create(const Client& new_client) {
 }
 
 std::optional<Client> ClientRepository::Read(const int kId) const {
-  try { 
-    for (const auto& kClient : my_clients_) {
-      std::cout << kClient.second << "\n";
-    }
+  try {
     return my_clients_.at(kId);
   } catch (const std::exception& e) {
     std::cerr << "Error: " << e.what() << std::endl;
@@ -56,8 +53,9 @@ void ClientRepository::Delete(const int kId) {
 }
 
 std::ostream& operator<<(std::ostream& os, const ClientRepository& kMyClientRepository) {
+  os << "\n";
   for (const auto& kClient : kMyClientRepository.my_clients_) {
-    os << kClient.second << "\n";
+    os << "ID: " << kClient.second.GetId() << "\n";
   }
 
   return os;
