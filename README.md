@@ -35,10 +35,10 @@ make
 
 The application allows to CREATE, READ, UPDATE and DELETE clients and suppliers associated to a business.
 
-* Main Menu
+- Main Menu
 Select an option to manage Clients or Suppliers.
 
-*Client/Supplier Menu
+-Client/Supplier Menu
 Select what CRUD action you would like to perform.
 
 ## License
