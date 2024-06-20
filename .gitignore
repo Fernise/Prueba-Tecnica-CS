@@ -1,0 +1,10 @@
+#VSCode
+/.vscode
+
+# Build output
+/build
+
+# Executables
+*.exe
+*.bin
+*.app

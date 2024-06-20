@@ -4,8 +4,11 @@
 #include <iostream>
 #include <string>
 #include <optional>
-#include <unordered_map>
 
+/**
+ * @class CRUDInterface
+ * @brief Abstract class with CRUD methods declaring a general purpose interface
+ */
 template <class T>
 class CRUDInterface {
  public:

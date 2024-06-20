@@ -1,7 +1,13 @@
-#include <iostream>
-#include <tuple>
+/**
+ * @file supplier.cc
+ * @author Fernando González Perdomo
+ * @date 06-20-2024
+ * @version 1.0
+ * @brief Implementation of the Supplier class
+ */
 
 #include "../../include/supplier/supplier.h"
+
 /**
  * @brief Supplier constructor
  * @param kName The supplier name

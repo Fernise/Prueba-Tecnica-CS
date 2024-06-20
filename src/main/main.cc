@@ -1,3 +1,11 @@
+/**
+ * @file main.cc
+ * @author Fernando González Perdomo
+ * @date 06-20-2024
+ * @version 1.0
+ * @brief Main logic of the application
+ */
+
 #include <iostream>
 #include <tuple>
 #include <string>
@@ -35,54 +43,88 @@ int main() {
           company.GetMyClients().Create(crud_client);
           break;
         case 2:
+          if (company.GetMyClients().GetSize() != 0) {
           std::cout << company.GetMyClients();
           AskClientRead(client_id, company);
           std::cout << *company.GetMyClients().Read(client_id);
+          } else {
+            std::cout << "\nThere are no clients available.\n";
+          }
           break;
         case 3:
-          update_option = AskClientUpdate(kClientInfo, crud_client);
-          company.GetMyClients().Update(update_option, kClientInfo);
+          if (company.GetMyClients().GetSize() != 0) {
+            std::cout << company.GetMyClients();
+            std::cout << "\n¿What client do you want to update? (Select by ID)\n";
+            std::cin >> client_id;
+            crud_client = *company.GetMyClients().Read(client_id);
+            update_option = AskClientUpdate(kClientInfo, crud_client);
+            company.GetMyClients().Update(update_option, kClientInfo);
+          } else {
+            std::cout << "\nThere are no clients available.\n";
+          }
           break;
         case 4:
-          AskClientDelete(client_id, company);
-          company.GetMyClients().Delete(client_id);
+          if (company.GetMyClients().GetSize() != 0) {
+            std::cout << company.GetMyClients(); 
+            AskClientDelete(client_id, company);
+            company.GetMyClients().Delete(client_id);
+          } else {
+            std::cout << "\nThere are no clients available.\n";
+          }
           break;
         default:
         std::cout << "\nThe option is not correct\n";
           break;
       }
     }
-    // if (option == kSupplierMenu) {
-    //   Supplier crud_supplier;
-    //   std::string supplier_name = "";
-    //   std::string supplier_cif = "";
-    //   int supplier_id = 0;
-    //   std::tuple<std::string, std::string, int> kSupplierInfo;
-    //   int update_option = 0;
-    //   switch (crud_option) {
-    //     case 1:
-    //       AskSupplierCreate(supplier_name, supplier_cif);
-    //       crud_supplier.SetName(supplier_name);
-    //       crud_supplier.SetCif(supplier_cif);
-    //       company.GetMySuppliers().Create(crud_supplier);
-    //       break;
-    //     case 2:
-    //       AskSupplierRead(supplier_id, company);
-    //       company.GetMySuppliers().Read(supplier_id);
-    //       break;
-    //     case 3:
-    //       update_option = AskSupplierUpdate(kSupplierInfo, crud_supplier);
-    //       company.GetMySuppliers().Update(update_option, kSupplierInfo);
-    //       break;
-    //     case 4:
-    //       AskSupplierDelete(supplier_id, company);
-    //       company.GetMySuppliers().Delete(supplier_id);
-    //       break;
-    //     default:
-    //     std::cout << "\nThe option is not correct\n";
-    //       break;
-    //   }
-    // }
+    if (option == kSupplierMenu) {
+      Supplier crud_supplier;
+      std::string supplier_name = "";
+      std::string supplier_cif = "";
+      int supplier_id = 0;
+      std::tuple<std::string, std::string, int> kSupplierInfo;
+      int update_option = 0;
+      switch (crud_option) {
+        case 1:
+          AskSupplierCreate(supplier_name, supplier_cif);
+          crud_supplier = Supplier(supplier_name, supplier_cif);
+          company.GetMySuppliers().Create(crud_supplier);
+          break;
+        case 2:
+          if (company.GetMySuppliers().GetSize() != 0) {
+            std::cout << company.GetMySuppliers();
+            AskSupplierRead(supplier_id, company);
+            std::cout << *company.GetMySuppliers().Read(supplier_id);
+          } else {
+            std::cout << "\nThere are no suppliers available.\n";
+          }
+          break;
+        case 3:
+          if (company.GetMySuppliers().GetSize() != 0) {
+            std::cout << company.GetMySuppliers();
+            std::cout << "\n¿What supplier do you want to update? (Select by ID)\n";
+            std::cin >> supplier_id;
+            crud_supplier = *company.GetMySuppliers().Read(supplier_id);
+            update_option = AskSupplierUpdate(kSupplierInfo, crud_supplier);
+            company.GetMySuppliers().Update(update_option, kSupplierInfo);
+          } else {
+            std::cout << "\nThere are no suppliers available.\n";
+          }
+          break;
+        case 4:
+          if (company.GetMySuppliers().GetSize() != 0) {
+            std::cout << company.GetMySuppliers();
+            AskSupplierDelete(supplier_id, company);
+            company.GetMySuppliers().Delete(supplier_id);
+          } else {
+            std::cout << "\nThere are no suppliers available.\n";
+          }
+          break;
+        default:
+        std::cout << "\nThe option is not correct\n";
+          break;
+      }
+    }
   } while (option != 3);
   return 0;
 }

@@ -1,3 +1,11 @@
+/**
+ * @file supplier_repository.cc
+ * @author Fernando González Perdomo
+ * @date 06-20-2024
+ * @version 1.0
+ * @brief Implementation of the SupplierRepository class
+ */
+
 #include "../../include/supplier_repository/supplier_repository.h"
 
 /**
@@ -35,26 +43,27 @@ std::optional<Supplier> SupplierRepository::Read(const int kId) const {
 void SupplierRepository::Update(const int kMode, const std::tuple<std::string, std::string, int>& kSupplierInfo) {
   const auto [kName, kDni, kId] = kSupplierInfo;
   try {
-    std::optional<Supplier> Supplier_to_update = Read(kId);
+    std::optional<Supplier> supplier_to_update = *Read(kId);
     switch(kMode) {
       // Mode == 1, updates name
       case 1: 
-        Supplier_to_update->SetName(kName);
+        supplier_to_update->SetName(kName);
         break;
       // Mode == 2, updates DNI
       case 2:
-        Supplier_to_update->SetCif(kDni);
+        supplier_to_update->SetCif(kDni);
         break;
       // Mode == 3, updates both
       case 3:
-        Supplier_to_update->SetName(kName);
-        Supplier_to_update->SetCif(kDni);
+        supplier_to_update->SetName(kName);
+        supplier_to_update->SetCif(kDni);
         break;
       default:
         std::cout << "\nError: The chosen mode is not valid\n";
     }
+    my_suppliers_[supplier_to_update->GetId()] = *supplier_to_update;
   } catch (const std::out_of_range& e) {
-    std::cout << "\nError: The Supplier has not been found\n";
+    std::cout << "\nError: The supplier has not been found\n";
   }   
 }
 
@@ -67,13 +76,19 @@ void SupplierRepository::Delete(const int kId) {
     Read(kId);
     my_suppliers_.erase(kId);
   } catch (const std::out_of_range& e) {
-    std::cout << "\nError: The Supplier has not been found\n";
+    std::cout << "\nError: The supplier has not been found\n";
   } 
 }
 
+/**
+ * @brief Insertion operator overload
+ * @param os The std::ostream& object
+ * @param kMySupplierRepository The supplier repository object to be sent to the output stream
+ * @return os The std::ostream& object
+ */
 std::ostream& operator<<(std::ostream& os, const SupplierRepository& kMySupplierRepository) {
   for (const auto& kSupplier : kMySupplierRepository.my_suppliers_) {
-    os << kSupplier.second << "\n";
+    os << "ID:" << kSupplier.second.GetId() << "\n";
   }
 
   return os;

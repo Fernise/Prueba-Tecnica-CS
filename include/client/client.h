@@ -3,8 +3,11 @@
 
 #include <iostream>
 #include <string>
-#include <optional>
 
+/**
+ * @class Client
+ * @brief Represents a client
+ */
 class Client {
  public:  
   Client() = default;

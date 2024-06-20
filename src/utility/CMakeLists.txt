@@ -7,4 +7,3 @@ target_include_directories(utility PUBLIC
               
 target_link_libraries(utility PRIVATE 
                       business)
-

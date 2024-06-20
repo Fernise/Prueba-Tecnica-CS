@@ -1,20 +1,32 @@
+/**
+ * @file menu.cc
+ * @author Fernando González Perdomo
+ * @date 06-20-2024
+ * @version 1.0
+ * @brief Implementation of the Menu class
+ */
+
 #include "../../include/menu/menu.h"
 
-
+/**
+ * @brief Shows the main menu
+ */
 void Menu::ShowMainMenu() const {
   std::cout << "\nMAIN MENU\n";
   std::cout << "1. Manage clients.\n2. Manage suppliers.\n3. Close\n";
 }
 
-int Menu::HandleMainMenuUserInput(const int kOption) const {
+/**
+ * @brief Handles the main menu user input option
+ * @param kOption The main menu option selected
+ */
+void Menu::HandleMainMenuUserInput(const int kOption) const {
   switch (kOption) {
     case 1:
       ShowClientMenu();
-      return kOption;
       break;
     case 2:
       ShowSupplierMenu();
-      return kOption;
       break;
     case 3:
       std::cout << "\nClosing application.\n";
@@ -24,9 +36,11 @@ int Menu::HandleMainMenuUserInput(const int kOption) const {
         std::cout << "\nThe selected option is not available. Try again.\n";
         break;
   }
-  return -1;
 }
 
+/**
+ * @brief Shows the client menu
+ */
 void Menu::ShowClientMenu() const {
   std::cout << "\nCLIENT MENU\n";
   std::cout << "1. Create new client.\n";
@@ -35,6 +49,9 @@ void Menu::ShowClientMenu() const {
   std::cout << "4. Delete client\n";
 }
 
+/**
+ * @brief Shows the supplier menu
+ */
 void Menu::ShowSupplierMenu() const {
   std::cout << "\nSUPPLIER MENU\n";
   std::cout << "1. Create new supplier.\n";

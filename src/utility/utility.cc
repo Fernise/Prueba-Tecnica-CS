@@ -1,5 +1,20 @@
+/**
+ * @file utility.cc
+ * @author Fernando González Perdomo
+ * @date 06-20-2024
+ * @version 1.0
+ * @brief Implementation of the methods used for managing user inputs
+ */
+
 #include "../../include/utility/utility.h"
 
+// CLIENT
+
+/**
+ * @brief Asks the client data
+ * @param client_name The client name
+ * @param client_dni The client DNI
+ */
 void AskClientCreate(std::string& client_name, std::string& client_dni) {
   std::cout << "\n¿What is the client name?\n";
   std::cin >> client_name;
@@ -7,13 +22,23 @@ void AskClientCreate(std::string& client_name, std::string& client_dni) {
   std::cin >> client_dni;
 } 
 
-
+/**
+ * @brief Asks the client id
+ * @param client_id The client id
+ * @param company The company which has associated the client 
+ */
 void AskClientRead(int& client_id, Business& company) {
   std::cout << "\n¿What client do you want to read? (Select by ID)\n";
-  // company.WriteMyClients();
   std::cin >> client_id;
 } 
 
+/**
+ * @brief Asks the data to update from a client
+ * @param kClientInfo The client data
+ * @param client_to_update The client to be updated
+ * @return update_option The option for updating the client data
+ * @note: update_option: could be 1 (update just name), 2 (update just DNI), 3 (update both)
+ */
 int AskClientUpdate(std::tuple<std::string, std::string, int>& kClientInfo, Client& client_to_update) {
   std::cout << "\n¿What would you like to update?\n";
   std::cout << "1. Name\n2. DNI\n3. Both\n";
@@ -41,14 +66,23 @@ int AskClientUpdate(std::tuple<std::string, std::string, int>& kClientInfo, Clie
   return update_option;
 }
 
+/**
+ * @brief Asks the client to delete
+ * @param client_id The client id
+ * @param company The company which has associated the client
+ */
 void AskClientDelete(int& client_id, Business& company) {
   std::cout << "\n¿What client do you want to delete? (Select by ID)\n";
-  // company.WriteMyClients();
   std::cin >> client_id;
 }
 
-// Supplier
+// SUPPLIER
 
+/**
+ * @brief Asks the supplier data
+ * @param client_name The supplier name
+ * @param client_cif The supplier CIF
+ */
 void AskSupplierCreate(std::string& supplier_name, std::string& supplier_cif) {
   std::cout << "\n¿What is the supplier name?\n";
   std::cin >> supplier_name;
@@ -56,13 +90,23 @@ void AskSupplierCreate(std::string& supplier_name, std::string& supplier_cif) {
   std::cin >> supplier_cif;
 } 
 
-
+/**
+ * @brief Asks the supplier id
+ * @param supplier_id The supplier id
+ * @param company The company which has associated the supplier 
+ */
 void AskSupplierRead(int& supplier_id, Business& company) {
   std::cout << "\n¿What supplier do you want to read? (Select by ID)\n";
-  // company.WriteMySuppliers();
   std::cin >> supplier_id;
 } 
 
+/**
+ * @brief Asks the data to update from a supplier
+ * @param kSupplierInfo The supplier data
+ * @param supplier_to_update The supplier to be updated
+ * @return update_option The option for updating the supplier data
+ * @note: update_option: could be 1 (update just name), 2 (update just CIF), 3 (update both)
+ */
 int AskSupplierUpdate(std::tuple<std::string, std::string, int>& kSupplierInfo, Supplier& supplier_to_update) {
   std::cout << "\n¿What would you like to update?\n";
   std::cout << "1. Name\n2. CIF\n3. Both\n";
@@ -90,8 +134,12 @@ int AskSupplierUpdate(std::tuple<std::string, std::string, int>& kSupplierInfo, 
   return update_option;
 }
 
+/**
+ * @brief Asks the supplier to delete
+ * @param supplier_id The supplier id
+ * @param company The company which has associated the supplier
+ */
 void AskSupplierDelete(int& supplier_id, Business& company) {
   std::cout << "\n¿What supplier do you want to delete? (Select by ID)\n";
-  // company.WriteMySuppliers();
   std::cin >> supplier_id;
 }

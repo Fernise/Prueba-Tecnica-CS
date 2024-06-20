@@ -5,8 +5,11 @@
 
 #include "../client_repository/client_repository.h"
 #include "../supplier_repository/supplier_repository.h"
-#include "../crud_interface/crud_interface.h"
 
+/**
+ * @class Business
+ * @brief Represents a Business composed of a group of clients and suppliers
+ */
 class Business {
  public:
   Business() = default;
