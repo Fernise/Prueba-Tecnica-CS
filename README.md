@@ -6,7 +6,8 @@ This is an application for managing clients and suppliers for a company.
 
 ## Installation
 
-The project requires a C++ compiler that supports C++17 or later.
+The project requires a C++ compiler that supports C++17 or later. 
+g++ preferable.
 
 It is necessary to have CMake installed:
 * Linux
