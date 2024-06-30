@@ -1,5 +1,3 @@
-# Prueba-Tecnica-CS
-
 # Business manager application 
 
 This is an application for managing clients and suppliers for a company.
